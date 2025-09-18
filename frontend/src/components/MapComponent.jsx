@@ -17,7 +17,9 @@ function MapComponent() {
   )
   */
   return (
-    <img src='/google-map.png' alt='map placeholder' style={{ width: '809px', height: '710px' }}/>
+    <div style={{ width: '809px', height: '710px', backgroundColor: 'grey' }}>
+      <img src='/google-map.png' alt='map placeholder' style={{ width: '100%', height: '100%' }} />
+    </div>
   )
 }
 

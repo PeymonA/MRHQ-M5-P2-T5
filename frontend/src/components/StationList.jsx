@@ -19,7 +19,7 @@ function StationList() {
   }, [])
 
   return (
-    <div style={{ width: '631px', height: '710px', backgroundColor: 'green' }}>
+    <div style={{ width: '631px', height: '710px', backgroundColor: 'green', overflowY: 'auto' }}>
       <ul>
         {stations.map((station) => (
           <li key={station._id}>
