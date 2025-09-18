@@ -14,7 +14,7 @@ function MapPage() {
       <Nav />
       <SearchBar />
       <Filter />
-      <div>
+      <div className="list-map-container">
         <StationList />
         <Map />
       </div>
