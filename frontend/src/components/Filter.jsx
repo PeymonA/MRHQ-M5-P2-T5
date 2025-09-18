@@ -1,28 +1,60 @@
 import '../styles/Filter.css'
 
-function Filter() {
+function Filter(props) {
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+    props.setState(formData);
+  }
 
   return (
     <div className='filter-container'>
       <div className='label-container'>
-        <label for="pet-select">Choose a pet:</label>
-        <label for="color-select">Choose a color:</label>
-        <label for="size-select">Choose a size:</label>
+        <label htmlFor="station-type-select">Station Type</label>
+        <label htmlFor="fuel-type-select">Fuel Type</label>
       </div>
       <div className='filter-container-child'>
-        <select id="pet-select">
-          <option value="someOption">Some option</option>
-          <option value="otherOption">Other option</option>
-        </select>
-        <select id="color-select">
-          <option value="someOption">Some option</option>
-          <option value="otherOption">Other option</option>
-        </select>
-        <select id="size-select">
-          <option value="someOption">Some option</option>
-          <option value="otherOption">Other option</option>
-        </select>
-        <button>Apply Filters</button>
+        <form method="post" onSubmit={handleSubmit}>
+          <select id="services-select" name='services'>
+            <option value="no service">Select Service</option>
+            <option value="EV Charging - Fast">EV Charging - Fast</option>
+            <option value="EV Charging - Ultra-Fast">EV Charging - Ultra-Fast</option>
+            <option value="EV Charging - Fast &/or Ultra-Fast">EV Charging - Fast &/or Ultra-Fast</option>
+            <option value="EV Charging - Coming Soon">EV Charging - Coming Soon</option>
+            <option value="f'real">f'real</option>
+            <option value="Pre-order Coffee">Pre-order Coffee</option>
+            <option value="Pay in app">Pay in app</option>
+            <option value="Z Espress Coffee & Fresh Food">Z Espress Coffee & Fresh Food</option>
+            <option value="Z2O carwash">Z2O carwash</option>
+            <option value="Trailer hire">Trailer hire</option>
+            <option value="LPG SWAP'n'GO">LPG SWAP'n'GO</option>
+            <option value="24/7 Pay at pump">24/7 Pay at pump</option>
+            <option value="Super long hoses">Super long hoses</option>
+            <option value="Bathrooms">Bathrooms</option>
+            <option value="A-Z Screen">A-Z Screen</option>
+            <option value="Pay by plate">Pay by plate</option>
+            <option value="Compostable Cups">Compostable Cups</option>
+            <option value="AdBlue Diesel Exhaust Fluid">AdBlue Diesel Exhaust Fluid</option>
+            <option value="Fast fill Diesel lane">Fast fill Diesel lane</option>
+            <option value="ATM">ATM</option>
+          </select>
+          <select id="station-type-select" name="stationType">
+            <option value="no station">Select Station Type</option>
+            <option value="Truck Stop">Truck Stop</option>
+            <option value="Service Station">Service Station</option>
+          </select>
+          <select id="fuel-type-select" name="fuelType">
+            <option value="no fuel">Select Fuel Type</option>
+            <option value="Diesel with Techron D">Diesel with Techron D</option>
+            <option value="ZX Premium">ZX Premium</option>
+            <option value="Z91 Unleaded">Z91 Unleaded</option>
+            <option value="Z Diesel">Z Diesel</option>
+            <option value="Z DEC">Z DEC</option>
+          </select>
+          <button type="submit">Apply Filters</button>
+        </form>
       </div>
     </div>
   )
