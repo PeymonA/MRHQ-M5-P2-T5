@@ -19,6 +19,7 @@ function StationList(props) {
       else { 
         const formdata = props.state;
         const formJson = Object.fromEntries(formdata.entries());
+        console.log(formJson);
         const response = await fetch("http://localhost:3000/stations/filter", {
           method: 'POST',
           body: JSON.stringify(formJson),
