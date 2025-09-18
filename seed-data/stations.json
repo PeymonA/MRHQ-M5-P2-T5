@@ -1,0 +1,3427 @@
+[
+  {
+    "title": "Z Aerodrome Road truck stop",
+    "address": "Aerodrome Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Hornby North truck stop",
+    "address": "74 Carmen Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z 11th Ave",
+    "address": "Cnr Eleventh Avenue and Cameron Road, Tauranga",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Addington",
+    "address": "250 Lincoln Road, Addington, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Albany",
+    "address": "287 Oteha Valley Road, Albany",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Andy Bay",
+    "address": "333 Andersons Bay Road, Andy Bay, Dunedin",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Coming Soon",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Avondale",
+    "address": "50-60 Ash Street, Avondale, West Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Awakeri truck stop",
+    "address": "State Highway 30, Whakatane",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Barrington",
+    "address": "253 Barrington Street, Christchurch",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Beach Rd truck stop",
+    "address": "150 Beach Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Belfast",
+    "address": "Cnr Main North Road and Johns Road, Belfast",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Bethlehem",
+    "address": "253B State Highway 2",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Bishopdale",
+    "address": "210 Harewood Road, Bishopdale, Christchurch",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Botany Downs",
+    "address": "550 Te Irirangi Drive, Botany Downs, Auckland",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Broadway",
+    "address": "Cnr Calabar Rd and Broadway, Strathmore",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Brougham St",
+    "address": "495 Brougham Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Browns Rd",
+    "address": "270 Roscommon Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Bryndwr",
+    "address": "52 Strowan Road, Bryndwr, Christchurch",
+    "hours": "Opening hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Cambridge",
+    "address": "81 Victoria Street, Cambridge",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Carlton Corner",
+    "address": "1 Papanui Road, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Caroline Bay",
+    "address": "62 Theodosia Street, Timaru",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Cashmere",
+    "address": "23-25 Colombo Street, Beckenham, Christchurch",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Central Parade",
+    "address": "500 Maunganui Road, Mount Maunganui",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Clevedon",
+    "address": "24-28 Papakura-Clevedon Road",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Constable St",
+    "address": "35 Constable St, Newtown, Wellington",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Constellation Dr truck stop",
+    "address": "36 Constellation Drive & Vega Place",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Huatoki (Z Courtenay Street)",
+    "address": "Cnr Courtenay Street and Liardet Street, New Plymouth",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Cromwell truck stop",
+    "address": "McNaulty Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Curletts Rd",
+    "address": "Cnr Curletts Road and Blenheim Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Dee St truck stop",
+    "address": "206-214 Dee Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Tuhikaramea (Z Dinsdale)",
+    "address": "Cnr Whatawhata Road and Tuhikaramea Road, Dinsdale, Hamilton",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Dublin St",
+    "address": "14 Dublin Street, Whanganui",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Ellerslie",
+    "address": "301 Ellerslie-Panmure Highway, Mt Wellington, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Fairy Springs truck stop",
+    "address": "23 Fairy Springs Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Fenton St",
+    "address": "Cnr Fenton and Victoria Street, Rotorua",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Te Papanui (Z Five Cross Roads)",
+    "address": "243 Peachgrove Road, Enderley, Hamilton",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Geraldine",
+    "address": "Cnr Waihi Terrace & Pine Street",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Gladstone",
+    "address": "455 Dee Street, Invercargill",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Glen Innes",
+    "address": "222-236 Apirana Avenue, Glen Innes, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Glen Park",
+    "address": "241 Glenfield Road, Hillcrest, North Shore",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Green Bay",
+    "address": "82 Godley Road, Green Bay, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Green Island",
+    "address": "185 Main South Road, Green Island, Dunedin",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Greenlane",
+    "address": "128 Greenlane Road, Greenlane, Auckland",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Greymouth truck stop",
+    "address": "Whall Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Grove Rd truck stop",
+    "address": "Corner Grove Road & Budge Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Harris Rd truck stop",
+    "address": "142 Harris Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Hautapu",
+    "address": "167 Victoria Road, Cambridge, New Zealand",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Havelock Nth",
+    "address": "Cnr Havelock Road and Porter Drive, Havelock North",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Hawera truck stop",
+    "address": "Corner South Road & Princes Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Henderson Valley",
+    "address": "1 Corban Avenue, Henderson, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Heretaunga St",
+    "address": "Cnr Heretaunga Street West and Southland Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Hewletts Rd truck stop",
+    "address": "81 Hewletts Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z High Street",
+    "address": "834 High Street, Boulcott, Lower Hutt",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Highbrook truck stop",
+    "address": "88 Highbrook Drive",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Hunters Corner",
+    "address": "72-76 East Tamaki Road, Papatoetoe, South Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Huntly",
+    "address": "390 Great South Road, Huntly",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Hutt Rd",
+    "address": "453 Hutt Road, Lower Hutt",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Inglewood",
+    "address": "47 Rata Street, Inglewood",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Johnsonville",
+    "address": "136-140 Johnsonville Road, Johnsonville, Wellington",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Kahikatea Drive",
+    "address": "124-126 Kahikatea Drive, Hamilton",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Kaikohe",
+    "address": "Broadway, Kaikohe",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Kaitaia",
+    "address": "141-145 Commerce Street, Kaitaia",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Kamo",
+    "address": "382 Kamo Road, Whangarei",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Kapiti",
+    "address": "Cnr Kapiti Road and Milne Drive, Paraparaumu",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Kawerau",
+    "address": "6 Islington Street, Kawerau",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Mataruahou (Z Kennedy Rd)",
+    "address": "Cnr Tennyson Street & Station Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Kensington",
+    "address": "Cnr Kamo Rd and Nixon Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Kepa Rd",
+    "address": "154 Kepa Road, Orakei, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Kilbirnie",
+    "address": "16-22 Coutts Street, Kilbirnie, Wellington",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Kingsway",
+    "address": "26 Clevedon Road, Papakura",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Kumeu",
+    "address": "134-152 Main Road, State Highway 16",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Lakeside",
+    "address": "Cnr Northcote Road and Taharoto Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Lakewood Court truck stop",
+    "address": "742 Great South Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Levin truck stop",
+    "address": "State Highway 1",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Lincoln Rd",
+    "address": "198 Lincoln Road, Henderson",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Linwood",
+    "address": "Cnr Linwood Avenue and Cashel Street, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Mana",
+    "address": "143 Mana Esplanade",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Manurewa",
+    "address": "1 Alfriston Road, Manurewa, South Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Marton",
+    "address": "166 Broadway, Marton",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "Super long hoses",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Masterton truck stop",
+    "address": "State Highway 2",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Matamata",
+    "address": "Cnr Waharoa Road and Peria Road, Matamata",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Miramar",
+    "address": "27 Miramar Avenue, Miramar, Wellington",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Moorhouse",
+    "address": "40 Moorhouse Avenue, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Morrinsville",
+    "address": "202-210 Thames Street, Morrinsville",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Mosgiel",
+    "address": "Cnr Gladstone Road and Quarry Road, Mosgiel",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Mungavin Ave",
+    "address": "1-5 Mungavin Avenue, Porirua East, Wellington",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z New Lynn",
+    "address": "62 Rata Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Ngatea truck stop",
+    "address": "77 Orchard Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Northcote",
+    "address": "119 Onewa Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Northcross",
+    "address": "847-849 East Coast Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Oamaru truck stop",
+    "address": "Pukeuri-Oamaru Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Ormiston Rd",
+    "address": "8 Ormiston Road, Flat Bush, South Auckland",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Otahuhu",
+    "address": "19 Princes Street, Otahuhu, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Pakuranga",
+    "address": "470 Pakuranga Highway, Pakuranga, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Palm Beach",
+    "address": "16 Domain Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Palmerston",
+    "address": "112 Ronaldsay Street",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Papakura North",
+    "address": "254 Great South Road, Takanini, Auckland",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Petone truck stop",
+    "address": "Corner Jackson Street & Hutt Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Picton",
+    "address": "101 High Street, Picton",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Pioneer Hwy",
+    "address": "676 Pioneer Highway",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Point Chev",
+    "address": "1125-1143 Great North Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Ponsonby",
+    "address": "5-9 Williamson Avenue",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Pukekohe",
+    "address": "11 Stadium Drive",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Pukete",
+    "address": "Cnr Pukete and Te Rapa Roads, Te Rapa, Hamilton",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Putaruru",
+    "address": "68-70 Tirau Street, Putaruru",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Queenstown",
+    "address": "846 Frankton Road, Queenstown",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Redwood",
+    "address": "225 Scott Street, Blenheim",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Roscommon Rd truck stop",
+    "address": "147 Roscommon Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Rotokauri",
+    "address": "Cnr Wairere Drive & Arthur Porter Drive",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Royal Oak",
+    "address": "700 Mount Albert Road, Royal Oak, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Rutherford",
+    "address": "106 Rutherford Street, Nelson",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Sanson truck stop",
+    "address": "State Highway 1",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Sawyers Arms",
+    "address": "530 Sawyers Arms Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Seaview truck stop",
+    "address": "58 Seaview Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Shirley",
+    "address": "7 Marshland Road, Shirley, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Silverdale",
+    "address": "5 Hibiscus Coast Highway",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Springlands",
+    "address": "165 Middle Renwick Road, Blenheim",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Stadium",
+    "address": "26 Mill Street, Hamilton",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Stoke",
+    "address": "666 Main Road, Stoke, Nelson",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Stratford",
+    "address": "Cnr Broadway and Regan Street, Stratford",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Sunnybrae",
+    "address": "37 Northcote Road, Takapuna",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Sylvia Park truck stop",
+    "address": "Sylvia Park Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Taipa",
+    "address": "570 State Highway 10",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Takanini",
+    "address": "166 Great South Road, Papakura",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Tamatea",
+    "address": "6 Durham Avenue, Tamatea",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Taradale",
+    "address": "21 Lee Road",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Taranaki St",
+    "address": "155 Taranaki Street, Wellington",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Tauhara",
+    "address": "200 Napier-Taupo Rd, Hilltop, Taupo",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Coming Soon",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Te Atatu",
+    "address": "402 Te Atatu Road, Te Atatu, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast &/or Ultra-Fast",
+      "EV Charging - Coming Soon",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Te Awamutu",
+    "address": "601 Sloane Street, Te Awamutu",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Te Irirangi Dr",
+    "address": "136 Dawson Road, Otara, South Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Te Kuiti truck stop",
+    "address": "Te Kumi Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Te Puke",
+    "address": "Cnr Jellicoe Street and King Street, Te Puke",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Templeton truck stop",
+    "address": "720 Main South Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Terrace End",
+    "address": "768 Main Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Ti Rakau Dr",
+    "address": "284 Ti Rakau Drive, East Tamaki, South Auckland",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Tom Pearce Dr",
+    "address": "Tom Pearce Drive, Auckland International Airport",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Trentham",
+    "address": "430 Fergusson Drive, Trentham, Upper Hutt",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Turangi truck stop",
+    "address": "Atirau Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Valley",
+    "address": "248 Kaikorai Valley Road, Kaikorai, Dunedin",
+    "hours": "Opening hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z VIC Corner",
+    "address": "545-555 High Street, Lower Hutt",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Vivian St",
+    "address": "174 Vivian St, Wellington",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Waikuku",
+    "address": "1413 Main North Road, Waikuku",
+    "hours": "Opening hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Waikumete",
+    "address": "4155 Great North Road, Glen Eden, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Waiouru truck stop",
+    "address": "State Highway 1",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Wairoa truck stop",
+    "address": "Achilles Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Waiuku",
+    "address": "16 Kitchener Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Waiwhakaiho truck stop",
+    "address": "Corner Devon Road & Smart Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Warkworth",
+    "address": "1 Hudson Road, Warkworth",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Whakatane",
+    "address": "Cnr Domain Road and King Street, Whakatane",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Whangaparaoa",
+    "address": "651 Whangaparaoa Road, Whangaparaoa",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Whitianga",
+    "address": "83-85 Albert Street, Whitianga",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Windsor",
+    "address": "701 Heretaunga St East",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Wiri Station Rd",
+    "address": "83 Wiri Station Road, Manukau City",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Woolston",
+    "address": "417 Ferry Road, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Karaka",
+    "address": "47 Harbourside Drive, Karaka, Auckland 2113",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Coming Soon",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z  Silverdale truck stop",
+    "address": "100 Foundry Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Amberley",
+    "address": "41 Carters Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Ashburton",
+    "address": "141 West Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Awakeri",
+    "address": "RD2, Whakatane",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Balclutha",
+    "address": "High Street",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Beach Rd",
+    "address": "150 Beach Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Constellation Dr",
+    "address": "36 Constellation Drive",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Cromwell",
+    "address": "Cnr Barry Avenue and Murray Terrace",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Dannevirke truck stop",
+    "address": "School Road (off State Highway 2)",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Dee St",
+    "address": "206-214 Dee Street, Invercargill",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Dunedin truck stop",
+    "address": "Corner Cumberland & Wolseley Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Fairy Springs",
+    "address": "23 Fairy Springs Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Gisborne service station",
+    "address": "300 Gladstone Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Gore",
+    "address": "Corner Hokonui Drive & Irwell Street",
+    "hours": "Opening hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses"
+    ]
+  },
+  {
+    "title": "Z Greymouth",
+    "address": "10 Whall Street",
+    "hours": "Opening hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Grove Rd",
+    "address": "Corner Grove Road & Budge Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Hamilton truck stop",
+    "address": "Corner Lincoln & Edgar Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Harris Rd",
+    "address": "142 Harris Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Hastings truck stop",
+    "address": "Corner Maraekakaho Road & Francis Hicks Avenue",
+    "hours": "24/7 pay at pump",
+    "services": []
+  },
+  {
+    "title": "Z Hawera",
+    "address": "Corner South Road & Princes Street",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Hewletts Rd",
+    "address": "81 Hewletts Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Highbrook",
+    "address": "88 Highbrook Drive",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Hornby",
+    "address": "Corner Carmen Road & Waterloo Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Kaikoura truck stop",
+    "address": "55 Beach Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Lakewood Court",
+    "address": "742 Great South Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Levin",
+    "address": "11-15 Oxford Street",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Massey North",
+    "address": "42 Fred Taylor Drive",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Masterton",
+    "address": "80 Chapel Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Methven truck stop",
+    "address": "Line Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Miro Street Truck stop",
+    "address": "63 Miro Street",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Napier truck stop",
+    "address": "Austin Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Ngatea",
+    "address": "77 Orchard West Road",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "Super long hoses",
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Oamaru",
+    "address": "22 Severn Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Palmerston North truck stop",
+    "address": "Corner Setters Line & Railway Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Petone",
+    "address": "Corner Jackson Street & Hutt Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Pokeno truck stop",
+    "address": "Great South Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Port Hills truck stop",
+    "address": "Port Hills Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Roscommon Rd",
+    "address": "147 Roscommon Rd",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Rotorua truck stop",
+    "address": "Sala Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Sanson",
+    "address": "State Highway 1",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen"
+    ]
+  },
+  {
+    "title": "Z Sawyers Arms Rd truck stop",
+    "address": "Sawyers Arms Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Seaview",
+    "address": "Cnr Seaview Road and Parkside Road",
+    "hours": "Opening hours",
+    "services": [
+      "Pay in app",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Fast fill Diesel lane"
+    ]
+  },
+  {
+    "title": "Z Sylvia Park",
+    "address": "510 Mount Wellington Highway",
+    "hours": "Open 24 hours",
+    "services": [
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Takaka truck stop",
+    "address": "96 Commercial Street",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Te Kuiti",
+    "address": "76 Te Kumi Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump"
+    ]
+  },
+  {
+    "title": "Z Templeton",
+    "address": "720 Main South Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Paterere Truck stop",
+    "address": "Corner State Highway 1 & State Highway 27",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Tokoroa truck stop",
+    "address": "Browning Street",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Turangi",
+    "address": "Corner State Highway 1 & Pihanga Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Waharoa truck stop",
+    "address": "Factory Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Waiouru",
+    "address": "State Highway 1",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Waipapa truck stop",
+    "address": "1913 State Highway 10",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Wairoa",
+    "address": "3 Achilles Street",
+    "hours": "Opening hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Waiwhakaiho",
+    "address": "Corner Devon Road & Smart Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate"
+    ]
+  },
+  {
+    "title": "Z Whangarei truck stop",
+    "address": "Kioreroa Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Winton truck stop",
+    "address": "39 Great North Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Washdyke truck stop",
+    "address": "55 Sheffield Street",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Bombay",
+    "address": "Cnr Mill Road & Great South Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Russley",
+    "address": "2 Russley Road, Russley, Christchurch",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Rangiora",
+    "address": "300 High Street, Waimakariri, Rangiora 7400",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Sandringham",
+    "address": "340 Sandringham Road, Auckland",
+    "hours": "Open 24 hours",
+    "services": [
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "Trailer hire",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Rolleston",
+    "address": "4 Brookside Road",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Ultra-Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "Pay by plate",
+      "Compostable Cups"
+    ]
+  },
+  {
+    "title": "Z Ashburton South truck stop",
+    "address": "128 South Street, Ashburton",
+    "hours": "Open 24 hours",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Remutaka",
+    "address": "1193 Fergusson Drive North",
+    "hours": "Open 24 hours",
+    "services": [
+      "EV Charging - Fast",
+      "EV Charging - Fast &/or Ultra-Fast",
+      "f'real",
+      "Pre-order Coffee",
+      "Pay in app",
+      "Z Espress Coffee & Fresh Food",
+      "Z2O carwash",
+      "LPG SWAP'n'GO",
+      "24/7 Pay at pump",
+      "Super long hoses",
+      "Bathrooms",
+      "A-Z Screen",
+      "Pay by plate",
+      "Compostable Cups",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Remutaka truck stop",
+    "address": "1193 Fergusson Drive North",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "24/7 Pay at pump",
+      "Bathrooms",
+      "A-Z Screen",
+      "Fast fill Diesel lane",
+      "ATM"
+    ]
+  },
+  {
+    "title": "Z Nelson Port truck stop",
+    "address": "Corner Wildman Ave & Hay Street",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Bombay truck stop",
+    "address": "Great South Road",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "Bathrooms",
+      "AdBlue Diesel Exhaust Fluid"
+    ]
+  },
+  {
+    "title": "Z Kinleith Tram Road",
+    "address": "Tram Road",
+    "hours": "Open 24 hours",
+    "services": []
+  },
+  {
+    "title": "Z Morrinsville truck stop",
+    "address": "Corner McCrae Street & Main Road",
+    "hours": "24/7 pay at pump",
+    "services": []
+  },
+  {
+    "title": "Z Massey North Truck Stop",
+    "address": "Corner State Highway 16 & Asti Lane",
+    "hours": "24/7 pay at pump",
+    "services": [
+      "Bathrooms"
+    ]
+  },
+  {
+    "title": "Z Truck Stop Old Hutt Rd",
+    "address": "208 Old Hutt Rd",
+    "hours": "24/7 pay at pump",
+    "services": []
+  }
+]

@@ -11,4 +11,20 @@ router.get("/", async (request, response) => {
   }
 });
 
+router.delete("/", async (request, response) => {
+  try {
+    await stationModel.deleteMany({});
+    response.status(200).send();
+  }
+  catch (error) {
+    response.status(500).send(error);
+  }
+});
+
+/*
+router.post("/", async (request, response) => { 
+  //todo
+});
+*/
+
 module.exports = router;

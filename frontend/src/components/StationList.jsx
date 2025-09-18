@@ -23,10 +23,10 @@ function StationList() {
       <ul>
         {stations.map((station) => (
           <li key={station._id}>
-            <p>{station.Name}</p>
-            <p>{station.Address}</p>
-            <p>{station.OpeningHours}</p>
-            <p>{station.Services.join(", ")}</p>
+            <p>{station.title}</p>
+            <p>{station.address}</p>
+            <p>{station.hours}</p>
+            <p>{station.services.join(", ")}</p>
           </li>
         ))}
       </ul>
