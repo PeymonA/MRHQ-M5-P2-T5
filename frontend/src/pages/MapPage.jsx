@@ -10,7 +10,7 @@ import MapComponent from '../components/MapComponent.jsx'
 function MapPage() {
 
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <Nav />
       <SearchBar />
       <Filter />
@@ -19,7 +19,7 @@ function MapPage() {
         <MapComponent />
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

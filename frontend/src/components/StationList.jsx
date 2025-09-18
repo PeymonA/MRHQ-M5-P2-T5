@@ -19,16 +19,18 @@ function StationList() {
   }, [])
 
   return (
-    <ul>
-      {stations.map((station) => (
-        <li key={station._id}>
-          <p>{station.Name}</p>
-          <p>{station.Address}</p>
-          <p>{station.OpeningHours}</p>
-          <p>{station.Services.join(", ")}</p>
-        </li>
-      ))}
-    </ul>
+    <div style={{ width: '631px', height: '710px', backgroundColor: 'green' }}>
+      <ul>
+        {stations.map((station) => (
+          <li key={station._id}>
+            <p>{station.Name}</p>
+            <p>{station.Address}</p>
+            <p>{station.OpeningHours}</p>
+            <p>{station.Services.join(", ")}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

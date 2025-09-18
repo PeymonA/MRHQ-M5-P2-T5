@@ -3,7 +3,7 @@ import '../styles/Filter.css'
 function Filter() {
 
   return (
-    <div>
+    <div style={{ width: '1440px', height: '112px', backgroundColor: 'red'}}>
       <p>Filter</p>
     </div>
   )

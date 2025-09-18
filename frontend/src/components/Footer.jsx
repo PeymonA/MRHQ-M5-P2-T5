@@ -3,7 +3,7 @@ import '../styles/Footer.css'
 function Footer() {
 
   return (
-    <div>
+    <div style={{ width: '1440px', height: '464px', backgroundColor: 'yellow' }}>
       <p>Footer</p>
     </div>
   )

@@ -3,7 +3,7 @@ import '../styles/SearchBar.css'
 function SearchBar() {
 
   return (
-    <div>
+    <div style={{ width: '1440px', height: '241px', backgroundColor: 'yellow' }}>
       <p>Search Bar</p>
     </div>
   )

@@ -3,7 +3,7 @@ import '../styles/Nav.css'
 function Nav() {
 
   return (
-    <div>
+    <div style={{ width: '1440px', height: '112px', backgroundColor: 'green' }}>
       <p>Nav</p>
     </div>
   )

@@ -14,17 +14,26 @@ const stationSchema = new Schema({
 
     Address: { 
         type: String,
+        required: true, 
         trim: true
     },
 
-    OpeningHours: {
+    StationType: {
         type: String,
+        required: true, 
         trim: true,
     },
 
+    FuelType: {
+        type: [String],
+        required: true,
+    },
+
     Services: {
-        type: [String]
+        type: [String],
+        required: true, 
     }
+
 });
 
 stationSchema.index({ Name: 'text' });
