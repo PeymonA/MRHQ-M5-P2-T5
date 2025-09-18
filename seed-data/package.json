@@ -1,0 +1,15 @@
+{
+  "name": "seed-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.18.1",
+    "puppeteer": "^24.22.0"
+  }
+}
