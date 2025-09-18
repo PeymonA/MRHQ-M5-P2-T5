@@ -14,7 +14,6 @@ function StationList() {
       });
       const data = await response.json();
       setStations(data);
-      console.log(data);
     };
     fetchData();
   }, [])

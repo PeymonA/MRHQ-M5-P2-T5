@@ -3,8 +3,8 @@ import Nav from '../components/Nav.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import Filter from '../components/Filter.jsx'
 import StationList from '../components/StationList.jsx'
-import Map from '../components/Map.jsx'
 import Footer from '../components/Footer.jsx'
+import MapComponent from '../components/MapComponent.jsx'
 
 
 function MapPage() {
@@ -16,7 +16,7 @@ function MapPage() {
       <Filter />
       <div className="list-map-container">
         <StationList />
-        <Map />
+        <MapComponent />
       </div>
       <Footer />
     </>
