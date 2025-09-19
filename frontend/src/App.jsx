@@ -3,15 +3,16 @@ import LandingPage from './pages/LandingPage';
 import MapPage from './pages/MapPage';
 
 function App() {
+
     return (
-    <Router>
-        <div>
-        <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/map" element={<MapPage />} />
-        </Routes>
-        </div>
-    </Router>
+        <Router>
+            <div>
+            <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/map" element={<MapPage />} />
+            </Routes>
+            </div>
+        </Router>
     );
 }
 

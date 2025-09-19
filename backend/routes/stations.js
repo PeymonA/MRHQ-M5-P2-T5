@@ -1,9 +1,21 @@
 var express = require('express');
 const stationModel = require("../models/station");
+const station = require('../models/station');
 var router = express.Router();
 
 router.get("/", async (request, response) => {
   const stations = await stationModel.find({});
+  try {
+    response.send(stations);
+  } catch (error) {
+    response.status(500).send(error);
+  }
+});
+
+router.post("/filter", async (request, response) => {
+  const {services, stationType, fuelType} = request.body;
+  console.log(services);
+  const stations = await stationModel.find({ services: { $all: services } });
   try {
     response.send(stations);
   } catch (error) {
@@ -20,11 +32,5 @@ router.delete("/", async (request, response) => {
     response.status(500).send(error);
   }
 });
-
-/*
-router.post("/", async (request, response) => { 
-  //todo
-});
-*/
 
 module.exports = router;

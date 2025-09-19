@@ -1,22 +1,36 @@
 import { useEffect, useState } from 'react'
 import '../styles/StationList.css'
 
-function StationList() {
+function StationList(props) {
   const [stations, setStations] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:3000/stations", {
-        method: 'GET',
-        headers: {
-          "Content-Type": "application/json"
-        }
-      });
-      const data = await response.json();
-      setStations(data);
+      if (JSON.stringify(props.state) === JSON.stringify({stationType: 'no station', fuelType: 'no fuel'})) {
+          const response = await fetch("http://localhost:3000/stations", {
+          method: 'GET',
+          headers: {
+            "Content-Type": "application/json"
+          }
+        });
+        const data = await response.json();
+        setStations(data);
+      }
+      else { 
+        const formJson = props.state;
+        const response = await fetch("http://localhost:3000/stations/filter", {
+          method: 'POST',
+          body: JSON.stringify(formJson),
+          headers: {
+            "Content-Type": "application/json"
+          }
+        });
+        const data = await response.json();
+        setStations(data);
+      }
     };
     fetchData();
-  }, [])
+  }, [props.state])
 
   return (
     <div style={{ width: '631px', height: '710px', backgroundColor: 'green', overflowY: 'auto' }}>
