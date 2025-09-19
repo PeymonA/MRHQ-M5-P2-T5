@@ -9,7 +9,6 @@ import StationList from '../components/StationList.jsx'
 import Footer from '../components/Footer.jsx'
 import MapComponent from '../components/MapComponent.jsx'
 
-
 function MapPage() {
   const [state, setState] = useState({stationType: 'no station', fuelType: 'no fuel'});
 
@@ -20,7 +19,7 @@ function MapPage() {
       <Filter state={state} setState={setState} />
       <div className="list-map-container">
         <StationList state={state} setState={setState} />
-        <MapComponent />
+        <MapComponent  />
       </div>
       <Footer />
     </div>
