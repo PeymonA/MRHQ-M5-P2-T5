@@ -1,8 +1,13 @@
 import '../styles/MapComponent.css'
-import fs from 'fs';
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
 
 function MapComponent() {
+
+  const pins = async () => {
+    const response = await fetch('http://localhost:3000/geocodes');
+    const data = await response.json();
+    return data;  
+  }
 
   return (
     <div style= {{width: '807px', height: '710px'}} >

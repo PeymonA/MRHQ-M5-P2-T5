@@ -1,0 +1,1486 @@
+[
+  {
+    "key": "Z Aerodrome Road truck stop",
+    "location": {
+      "lat": 51.594415,
+      "lng": -0.2405971
+    }
+  },
+  {
+    "key": "Z Hornby North truck stop",
+    "location": {
+      "lat": -43.5366818,
+      "lng": 172.5293314
+    }
+  },
+  {
+    "key": "Z 11th Ave",
+    "location": {
+      "lat": -37.6983206,
+      "lng": 176.1591744
+    }
+  },
+  {
+    "key": "Z Addington",
+    "location": {
+      "lat": -43.5458562,
+      "lng": 172.6085853
+    }
+  },
+  {
+    "key": "Z Albany",
+    "location": {
+      "lat": -36.7252166,
+      "lng": 174.6976723
+    }
+  },
+  {
+    "key": "Z Andy Bay",
+    "location": {
+      "lat": -45.8926326,
+      "lng": 170.5032151
+    }
+  },
+  {
+    "key": "Z Avondale",
+    "location": {
+      "lat": -36.8959916,
+      "lng": 174.6884762
+    }
+  },
+  {
+    "key": "Z Awakeri truck stop",
+    "location": {
+      "lat": -37.9581603,
+      "lng": 176.9735981
+    }
+  },
+  {
+    "key": "Z Barrington",
+    "location": {
+      "lat": -43.5573162,
+      "lng": 172.6186072
+    }
+  },
+  {
+    "key": "Z Beach Rd truck stop",
+    "location": {
+      "lat": 1.2984041,
+      "lng": 103.8589041
+    }
+  },
+  {
+    "key": "Z Belfast",
+    "location": {
+      "lat": -43.4511197,
+      "lng": 172.6284168
+    }
+  },
+  {
+    "key": "Z Bethlehem",
+    "location": {
+      "lat": -37.696084,
+      "lng": 176.1070123
+    }
+  },
+  {
+    "key": "Z Bishopdale",
+    "location": {
+      "lat": -43.4897099,
+      "lng": 172.5930831
+    }
+  },
+  {
+    "key": "Z Botany Downs",
+    "location": {
+      "lat": -36.9308329,
+      "lng": 174.9109426
+    }
+  },
+  {
+    "key": "Z Broadway",
+    "location": {
+      "lat": 51.037741,
+      "lng": -113.4003335
+    }
+  },
+  {
+    "key": "Z Brougham St",
+    "location": {
+      "lat": -43.547775,
+      "lng": 172.6575621
+    }
+  },
+  {
+    "key": "Z Browns Rd",
+    "location": {
+      "lat": -37.01776770000001,
+      "lng": 174.8619879
+    }
+  },
+  {
+    "key": "Z Bryndwr",
+    "location": {
+      "lat": -43.5104979,
+      "lng": 172.6075303
+    }
+  },
+  {
+    "key": "Z Cambridge",
+    "location": {
+      "lat": -37.891416,
+      "lng": 175.4669814
+    }
+  },
+  {
+    "key": "Z Carlton Corner",
+    "location": {
+      "lat": -43.5205115,
+      "lng": 172.6274392
+    }
+  },
+  {
+    "key": "Z Caroline Bay",
+    "location": {
+      "lat": -44.3936301,
+      "lng": 171.2476687
+    }
+  },
+  {
+    "key": "Z Cashmere",
+    "location": {
+      "lat": -43.5654443,
+      "lng": 172.6363656
+    }
+  },
+  {
+    "key": "Z Central Parade",
+    "location": {
+      "lat": -37.6542804,
+      "lng": 176.1995237
+    }
+  },
+  {
+    "key": "Z Clevedon",
+    "location": {
+      "lat": -36.9934813,
+      "lng": 175.0374795
+    }
+  },
+  {
+    "key": "Z Constable St",
+    "location": {
+      "lat": -41.3131577,
+      "lng": 174.7815801
+    }
+  },
+  {
+    "key": "Z Constellation Dr truck stop",
+    "location": {
+      "lat": -36.7481482,
+      "lng": 174.7317087
+    }
+  },
+  {
+    "key": "Z Huatoki (Z Courtenay Street)",
+    "location": {
+      "lat": -39.0580454,
+      "lng": 174.0764824
+    }
+  },
+  {
+    "key": "Z Cromwell truck stop",
+    "location": {
+      "lat": 40.1088268,
+      "lng": -74.9801221
+    }
+  },
+  {
+    "key": "Z Curletts Rd",
+    "location": {
+      "lat": -43.5393696,
+      "lng": 172.5684916
+    }
+  },
+  {
+    "key": "Z Dee St truck stop",
+    "location": {
+      "lat": 32.3078094,
+      "lng": -87.8025037
+    }
+  },
+  {
+    "key": "Z Tuhikaramea (Z Dinsdale)",
+    "location": {
+      "lat": -37.801605,
+      "lng": 175.245728
+    }
+  },
+  {
+    "key": "Z Dublin St",
+    "location": {
+      "lat": -39.921864,
+      "lng": 175.0493514
+    }
+  },
+  {
+    "key": "Z Ellerslie",
+    "location": {
+      "lat": -36.8981638,
+      "lng": 174.8246
+    }
+  },
+  {
+    "key": "Z Fairy Springs truck stop",
+    "location": {
+      "lat": -38.1230823,
+      "lng": 176.2306706
+    }
+  },
+  {
+    "key": "Z Fenton St",
+    "location": {
+      "lat": -38.1423446,
+      "lng": 176.2537344
+    }
+  },
+  {
+    "key": "Z Te Papanui (Z Five Cross Roads)",
+    "location": {
+      "lat": -37.7725324,
+      "lng": 175.2929809
+    }
+  },
+  {
+    "key": "Z Geraldine",
+    "location": {
+      "lat": -44.0881872,
+      "lng": 171.2427595
+    }
+  },
+  {
+    "key": "Z Gladstone",
+    "location": {
+      "lat": -46.39308579999999,
+      "lng": 168.3476616
+    }
+  },
+  {
+    "key": "Z Glen Innes",
+    "location": {
+      "lat": -36.8770648,
+      "lng": 174.8544877
+    }
+  },
+  {
+    "key": "Z Glen Park",
+    "location": {
+      "lat": -36.7942886,
+      "lng": 174.7243257
+    }
+  },
+  {
+    "key": "Z Green Bay",
+    "location": {
+      "lat": -36.9312092,
+      "lng": 174.6775892
+    }
+  },
+  {
+    "key": "Z Green Island",
+    "location": {
+      "lat": -45.9013041,
+      "lng": 170.4314598
+    }
+  },
+  {
+    "key": "Z Greenlane",
+    "location": {
+      "lat": -36.891026,
+      "lng": 174.7938862
+    }
+  },
+  {
+    "key": "Z Greymouth truck stop",
+    "location": {
+      "lat": 40.7060675,
+      "lng": -74.0089046
+    }
+  },
+  {
+    "key": "Z Harris Rd truck stop",
+    "location": {
+      "lat": -35.684306,
+      "lng": 174.3616273
+    }
+  },
+  {
+    "key": "Z Hautapu",
+    "location": {
+      "lat": -37.8670559,
+      "lng": 175.4568026
+    }
+  },
+  {
+    "key": "Z Havelock Nth",
+    "location": {
+      "lat": -39.6706314,
+      "lng": 176.8758668
+    }
+  },
+  {
+    "key": "Z Henderson Valley",
+    "location": {
+      "lat": -36.8918485,
+      "lng": 174.6229954
+    }
+  },
+  {
+    "key": "Z Heretaunga St",
+    "location": {
+      "lat": -39.6379475,
+      "lng": 176.8390214
+    }
+  },
+  {
+    "key": "Z Hewletts Rd truck stop",
+    "location": {
+      "lat": -37.6659804,
+      "lng": 176.1992747
+    }
+  },
+  {
+    "key": "Z High Street",
+    "location": {
+      "lat": -41.19779580000001,
+      "lng": 174.9375247
+    }
+  },
+  {
+    "key": "Z Highbrook truck stop",
+    "location": {
+      "lat": -36.937719,
+      "lng": 174.8726319
+    }
+  },
+  {
+    "key": "Z Hunters Corner",
+    "location": {
+      "lat": -36.966671,
+      "lng": 174.8630247
+    }
+  },
+  {
+    "key": "Z Huntly",
+    "location": {
+      "lat": -37.567501,
+      "lng": 175.1583746
+    }
+  },
+  {
+    "key": "Z Hutt Rd",
+    "location": {
+      "lat": -41.2139195,
+      "lng": 174.8874297
+    }
+  },
+  {
+    "key": "Z Inglewood",
+    "location": {
+      "lat": -39.1561135,
+      "lng": 174.205451
+    }
+  },
+  {
+    "key": "Z Johnsonville",
+    "location": {
+      "lat": -41.2260922,
+      "lng": 174.8067426
+    }
+  },
+  {
+    "key": "Z Kahikatea Drive",
+    "location": {
+      "lat": -37.8074234,
+      "lng": 175.2703077
+    }
+  },
+  {
+    "key": "Z Kaikohe",
+    "location": {
+      "lat": -35.4071165,
+      "lng": 173.8009991
+    }
+  },
+  {
+    "key": "Z Kaitaia",
+    "location": {
+      "lat": -35.112536,
+      "lng": 173.2629849
+    }
+  },
+  {
+    "key": "Z Kamo",
+    "location": {
+      "lat": -35.6842425,
+      "lng": 174.3016765
+    }
+  },
+  {
+    "key": "Z Kapiti",
+    "location": {
+      "lat": -40.9067759,
+      "lng": 174.9982791
+    }
+  },
+  {
+    "key": "Z Kawerau",
+    "location": {
+      "lat": -38.08498549999999,
+      "lng": 176.7019357
+    }
+  },
+  {
+    "key": "Z Mataruahou (Z Kennedy Rd)",
+    "location": {
+      "lat": 39.7931447,
+      "lng": -105.043937
+    }
+  },
+  {
+    "key": "Z Kensington",
+    "location": {
+      "lat": -35.7083483,
+      "lng": 174.3216399
+    }
+  },
+  {
+    "key": "Z Kepa Rd",
+    "location": {
+      "lat": -36.8613543,
+      "lng": 174.8231295
+    }
+  },
+  {
+    "key": "Z Kilbirnie",
+    "location": {
+      "lat": -41.3202319,
+      "lng": 174.7945094
+    }
+  },
+  {
+    "key": "Z Kingsway",
+    "location": {
+      "lat": -37.0617716,
+      "lng": 174.9483901
+    }
+  },
+  {
+    "key": "Z Kumeu",
+    "location": {
+      "lat": 28.0547765,
+      "lng": -98.5960484
+    }
+  },
+  {
+    "key": "Z Lakeside",
+    "location": {
+      "lat": -36.78553429999999,
+      "lng": 174.7563096
+    }
+  },
+  {
+    "key": "Z Lakewood Court truck stop",
+    "location": {
+      "lat": -36.9946349,
+      "lng": 174.8861413
+    }
+  },
+  {
+    "key": "Z Levin truck stop",
+    "location": {
+      "lat": -41.3110974,
+      "lng": 173.9793731
+    }
+  },
+  {
+    "key": "Z Lincoln Rd",
+    "location": {
+      "lat": -36.8588311,
+      "lng": 174.6293001
+    }
+  },
+  {
+    "key": "Z Linwood",
+    "location": {
+      "lat": -43.5328823,
+      "lng": 172.6719458
+    }
+  },
+  {
+    "key": "Z Mana",
+    "location": {
+      "lat": -41.09141510000001,
+      "lng": 174.8674207
+    }
+  },
+  {
+    "key": "Z Manurewa",
+    "location": {
+      "lat": -37.0235992,
+      "lng": 174.8996576
+    }
+  },
+  {
+    "key": "Z Marton",
+    "location": {
+      "lat": -40.0652893,
+      "lng": 175.3789531
+    }
+  },
+  {
+    "key": "Z Masterton truck stop",
+    "location": {
+      "lat": -39.2659011,
+      "lng": 176.8748033
+    }
+  },
+  {
+    "key": "Z Matamata",
+    "location": {
+      "lat": -37.7982269,
+      "lng": 175.7433927
+    }
+  },
+  {
+    "key": "Z Miramar",
+    "location": {
+      "lat": -41.3150129,
+      "lng": 174.8139857
+    }
+  },
+  {
+    "key": "Z Moorhouse",
+    "location": {
+      "lat": -43.5404647,
+      "lng": 172.6221869
+    }
+  },
+  {
+    "key": "Z Morrinsville",
+    "location": {
+      "lat": -37.6588647,
+      "lng": 175.5264813
+    }
+  },
+  {
+    "key": "Z Mosgiel",
+    "location": {
+      "lat": -45.8857603,
+      "lng": 170.3544987
+    }
+  },
+  {
+    "key": "Z Mungavin Ave",
+    "location": {
+      "lat": -41.1378805,
+      "lng": 174.8457497
+    }
+  },
+  {
+    "key": "Z New Lynn",
+    "location": {
+      "lat": -36.9027609,
+      "lng": 174.6813305
+    }
+  },
+  {
+    "key": "Z Ngatea truck stop",
+    "location": {
+      "lat": 1.3016886,
+      "lng": 103.8397275
+    }
+  },
+  {
+    "key": "Z Northcote",
+    "location": {
+      "lat": -36.81025,
+      "lng": 174.7379873
+    }
+  },
+  {
+    "key": "Z Northcross",
+    "location": {
+      "lat": -36.7101656,
+      "lng": 174.7282385
+    }
+  },
+  {
+    "key": "Z Oamaru truck stop",
+    "location": {
+      "lat": -45.0502585,
+      "lng": 171.0104229
+    }
+  },
+  {
+    "key": "Z Ormiston Rd",
+    "location": {
+      "lat": -36.9605776,
+      "lng": 174.8911266
+    }
+  },
+  {
+    "key": "Z Otahuhu",
+    "location": {
+      "lat": -36.9410514,
+      "lng": 174.8431495
+    }
+  },
+  {
+    "key": "Z Pakuranga",
+    "location": {
+      "lat": -36.9001337,
+      "lng": 174.8994516
+    }
+  },
+  {
+    "key": "Z Palm Beach",
+    "location": {
+      "lat": -36.9022059,
+      "lng": 174.8562878
+    }
+  },
+  {
+    "key": "Z Palmerston",
+    "location": {
+      "lat": 55.894848,
+      "lng": -4.2441851
+    }
+  },
+  {
+    "key": "Z Papakura North",
+    "location": {
+      "lat": -37.0506719,
+      "lng": 174.929741
+    }
+  },
+  {
+    "key": "Z Picton",
+    "location": {
+      "lat": -41.2919701,
+      "lng": 174.006414
+    }
+  },
+  {
+    "key": "Z Pioneer Hwy",
+    "location": {
+      "lat": -40.3646365,
+      "lng": 175.5931234
+    }
+  },
+  {
+    "key": "Z Point Chev",
+    "location": {
+      "lat": -36.8690414,
+      "lng": 174.7129005
+    }
+  },
+  {
+    "key": "Z Ponsonby",
+    "location": {
+      "lat": 53.0691924,
+      "lng": -2.1644647
+    }
+  },
+  {
+    "key": "Z Pukekohe",
+    "location": {
+      "lat": 53.47635589999999,
+      "lng": -2.206568
+    }
+  },
+  {
+    "key": "Z Pukete",
+    "location": {
+      "lat": -37.751966,
+      "lng": 175.2402094
+    }
+  },
+  {
+    "key": "Z Putaruru",
+    "location": {
+      "lat": -38.0477556,
+      "lng": 175.7803629
+    }
+  },
+  {
+    "key": "Z Queenstown",
+    "location": {
+      "lat": -45.0172266,
+      "lng": 168.7160994
+    }
+  },
+  {
+    "key": "Z Redwood",
+    "location": {
+      "lat": -41.5297775,
+      "lng": 173.9582541
+    }
+  },
+  {
+    "key": "Z Roscommon Rd truck stop",
+    "location": {
+      "lat": -37.0037389,
+      "lng": 174.8534937
+    }
+  },
+  {
+    "key": "Z Rotokauri",
+    "location": {
+      "lat": -37.762543,
+      "lng": 175.2990462
+    }
+  },
+  {
+    "key": "Z Royal Oak",
+    "location": {
+      "lat": -36.9112072,
+      "lng": 174.7737749
+    }
+  },
+  {
+    "key": "Z Rutherford",
+    "location": {
+      "lat": -41.2744908,
+      "lng": 173.280494
+    }
+  },
+  {
+    "key": "Z Sanson truck stop",
+    "location": {
+      "lat": -41.3110974,
+      "lng": 173.9793731
+    }
+  },
+  {
+    "key": "Z Sawyers Arms",
+    "location": {
+      "lat": -43.4706092,
+      "lng": 172.5706598
+    }
+  },
+  {
+    "key": "Z Seaview truck stop",
+    "location": {
+      "lat": -34.9413955,
+      "lng": 138.5006914
+    }
+  },
+  {
+    "key": "Z Shirley",
+    "location": {
+      "lat": -43.50736029999999,
+      "lng": 172.662417
+    }
+  },
+  {
+    "key": "Z Silverdale",
+    "location": {
+      "lat": -36.6233844,
+      "lng": 174.6682015
+    }
+  },
+  {
+    "key": "Z Springlands",
+    "location": {
+      "lat": -41.5101885,
+      "lng": 173.9301363
+    }
+  },
+  {
+    "key": "Z Stadium",
+    "location": {
+      "lat": -37.7805144,
+      "lng": 175.2713973
+    }
+  },
+  {
+    "key": "Z Stoke",
+    "location": {
+      "lat": -41.3190052,
+      "lng": 173.2250369
+    }
+  },
+  {
+    "key": "Z Stratford",
+    "location": {
+      "lat": -39.337856,
+      "lng": 174.2842407
+    }
+  },
+  {
+    "key": "Z Sunnybrae",
+    "location": {
+      "lat": -36.7923468,
+      "lng": 174.747226
+    }
+  },
+  {
+    "key": "Z Sylvia Park truck stop",
+    "location": {
+      "lat": -36.9232729,
+      "lng": 174.8369948
+    }
+  },
+  {
+    "key": "Z Taipa",
+    "location": {
+      "lat": -34.9961217,
+      "lng": 173.465826
+    }
+  },
+  {
+    "key": "Z Takanini",
+    "location": {
+      "lat": -37.06278,
+      "lng": 174.9425
+    }
+  },
+  {
+    "key": "Z Tamatea",
+    "location": {
+      "lat": -39.5094667,
+      "lng": 176.8685313
+    }
+  },
+  {
+    "key": "Z Taradale",
+    "location": {
+      "lat": 32.7097762,
+      "lng": -85.23166230000001
+    }
+  },
+  {
+    "key": "Z Taranaki St",
+    "location": {
+      "lat": -41.2971289,
+      "lng": 174.7764488
+    }
+  },
+  {
+    "key": "Z Tauhara",
+    "location": {
+      "lat": -38.7041242,
+      "lng": 176.1093464
+    }
+  },
+  {
+    "key": "Z Te Atatu",
+    "location": {
+      "lat": -36.8520347,
+      "lng": 174.6506627
+    }
+  },
+  {
+    "key": "Z Te Awamutu",
+    "location": {
+      "lat": -38.0149166,
+      "lng": 175.3247064
+    }
+  },
+  {
+    "key": "Z Te Irirangi Dr",
+    "location": {
+      "lat": -36.9773943,
+      "lng": 174.8975416
+    }
+  },
+  {
+    "key": "Z Te Kuiti truck stop",
+    "location": {
+      "lat": -38.3274215,
+      "lng": 175.1549115
+    }
+  },
+  {
+    "key": "Z Te Puke",
+    "location": {
+      "lat": -37.7855164,
+      "lng": 176.3308138
+    }
+  },
+  {
+    "key": "Z Templeton truck stop",
+    "location": {
+      "lat": -43.549495,
+      "lng": 172.4883507
+    }
+  },
+  {
+    "key": "Z Terrace End",
+    "location": {
+      "lat": 49.2779543,
+      "lng": -123.0994742
+    }
+  },
+  {
+    "key": "Z Ti Rakau Dr",
+    "location": {
+      "lat": -36.9262502,
+      "lng": 174.8951142
+    }
+  },
+  {
+    "key": "Z Tom Pearce Dr",
+    "location": {
+      "lat": -37.0089374,
+      "lng": 174.7863813
+    }
+  },
+  {
+    "key": "Z Trentham",
+    "location": {
+      "lat": -41.1371702,
+      "lng": 175.0325219
+    }
+  },
+  {
+    "key": "Z Turangi truck stop",
+    "location": {
+      "lat": -38.9968471,
+      "lng": 175.8027671
+    }
+  },
+  {
+    "key": "Z Valley",
+    "location": {
+      "lat": -45.8725259,
+      "lng": 170.4720912
+    }
+  },
+  {
+    "key": "Z VIC Corner",
+    "location": {
+      "lat": -41.2038439,
+      "lng": 174.9135245
+    }
+  },
+  {
+    "key": "Z Vivian St",
+    "location": {
+      "lat": -41.2943672,
+      "lng": 174.7744861
+    }
+  },
+  {
+    "key": "Z Waikuku",
+    "location": {
+      "lat": -43.2951212,
+      "lng": 172.6838999
+    }
+  },
+  {
+    "key": "Z Waikumete",
+    "location": {
+      "lat": -36.9001736,
+      "lng": 174.6531829
+    }
+  },
+  {
+    "key": "Z Waiouru truck stop",
+    "location": {
+      "lat": -41.3110974,
+      "lng": 173.9793731
+    }
+  },
+  {
+    "key": "Z Wairoa truck stop",
+    "location": {
+      "lat": 51.4765062,
+      "lng": -0.0358063
+    }
+  },
+  {
+    "key": "Z Waiuku",
+    "location": {
+      "lat": 1.3114867,
+      "lng": 103.8571106
+    }
+  },
+  {
+    "key": "Z Warkworth",
+    "location": {
+      "lat": -36.3924702,
+      "lng": 174.6512463
+    }
+  },
+  {
+    "key": "Z Whakatane",
+    "location": {
+      "lat": -37.9676093,
+      "lng": 176.9821319
+    }
+  },
+  {
+    "key": "Z Whangaparaoa",
+    "location": {
+      "lat": -36.6348219,
+      "lng": 174.7396119
+    }
+  },
+  {
+    "key": "Z Whitianga",
+    "location": {
+      "lat": -36.8361615,
+      "lng": 175.7039592
+    }
+  },
+  {
+    "key": "Z Windsor",
+    "location": {
+      "lat": -39.64800340000001,
+      "lng": 176.8492478
+    }
+  },
+  {
+    "key": "Z Wiri Station Rd",
+    "location": {
+      "lat": -36.99956,
+      "lng": 174.87118
+    }
+  },
+  {
+    "key": "Z Woolston",
+    "location": {
+      "lat": -43.54339,
+      "lng": 172.6680891
+    }
+  },
+  {
+    "key": "Z Karaka",
+    "location": {
+      "lat": -37.07352789999999,
+      "lng": 174.9256195
+    }
+  },
+  {
+    "key": "Z  Silverdale truck stop",
+    "location": {
+      "lat": -36.6216936,
+      "lng": 174.6841608
+    }
+  },
+  {
+    "key": "Z Amberley",
+    "location": {
+      "lat": -33.6792419,
+      "lng": 151.0499723
+    }
+  },
+  {
+    "key": "Z Ashburton",
+    "location": {
+      "lat": 53.3801869,
+      "lng": -1.4785519
+    }
+  },
+  {
+    "key": "Z Awakeri",
+    "location": {
+      "lat": -37.95853109999999,
+      "lng": 176.9822259
+    }
+  },
+  {
+    "key": "Z Balclutha",
+    "location": {
+      "lat": 52.4857175,
+      "lng": -2.1329034
+    }
+  },
+  {
+    "key": "Z Beach Rd",
+    "location": {
+      "lat": 1.2984041,
+      "lng": 103.8589041
+    }
+  },
+  {
+    "key": "Z Constellation Dr",
+    "location": {
+      "lat": -36.7481482,
+      "lng": 174.7317087
+    }
+  },
+  {
+    "key": "Z Cromwell",
+    "location": {
+      "lat": -45.0364077,
+      "lng": 169.1993428
+    }
+  },
+  {
+    "key": "Z Dee St",
+    "location": {
+      "lat": -46.4051902,
+      "lng": 168.3468002
+    }
+  },
+  {
+    "key": "Z Dunedin truck stop",
+    "location": {
+      "lat": 39.6528654,
+      "lng": -78.7625185
+    }
+  },
+  {
+    "key": "Z Fairy Springs",
+    "location": {
+      "lat": -38.1230823,
+      "lng": 176.2306706
+    }
+  },
+  {
+    "key": "Z Gisborne service station",
+    "location": {
+      "lat": 51.409251,
+      "lng": -3.2670042
+    }
+  },
+  {
+    "key": "Z Gore",
+    "location": {
+      "lat": -46.0932428,
+      "lng": 168.9443217
+    }
+  },
+  {
+    "key": "Z Greymouth",
+    "location": {
+      "lat": -42.4494732,
+      "lng": 171.21259
+    }
+  },
+  {
+    "key": "Z Harris Rd",
+    "location": {
+      "lat": -35.684306,
+      "lng": 174.3616273
+    }
+  },
+  {
+    "key": "Z Hastings truck stop",
+    "location": {
+      "lat": -39.649559,
+      "lng": 176.7553518
+    }
+  },
+  {
+    "key": "Z Hewletts Rd",
+    "location": {
+      "lat": -37.6659804,
+      "lng": 176.1992747
+    }
+  },
+  {
+    "key": "Z Highbrook",
+    "location": {
+      "lat": -36.937719,
+      "lng": 174.8726319
+    }
+  },
+  {
+    "key": "Z Kaikoura truck stop",
+    "location": {
+      "lat": 17.7899603,
+      "lng": 83.3847044
+    }
+  },
+  {
+    "key": "Z Lakewood Court",
+    "location": {
+      "lat": -36.9946349,
+      "lng": 174.8861413
+    }
+  },
+  {
+    "key": "Z Levin",
+    "location": {
+      "lat": 51.4781816,
+      "lng": -1.0479744
+    }
+  },
+  {
+    "key": "Z Massey North",
+    "location": {
+      "lat": -36.8214339,
+      "lng": 174.6086254
+    }
+  },
+  {
+    "key": "Z Masterton",
+    "location": {
+      "lat": -37.867222,
+      "lng": 144.9909213
+    }
+  },
+  {
+    "key": "Z Miro Street Truck stop",
+    "location": {
+      "lat": -36.90313210000001,
+      "lng": 174.6717035
+    }
+  },
+  {
+    "key": "Z Napier truck stop",
+    "location": {
+      "lat": 40.7205772,
+      "lng": -73.8459006
+    }
+  },
+  {
+    "key": "Z Ngatea",
+    "location": {
+      "lat": -37.2763785,
+      "lng": 175.4907824
+    }
+  },
+  {
+    "key": "Z Oamaru",
+    "location": {
+      "lat": -37.8129292,
+      "lng": 145.1298013
+    }
+  },
+  {
+    "key": "Z Palmerston North truck stop",
+    "location": {
+      "lat": -40.303814,
+      "lng": 175.6050607
+    }
+  },
+  {
+    "key": "Z Pokeno truck stop",
+    "location": {
+      "lat": -37.0843879,
+      "lng": 174.9420288
+    }
+  },
+  {
+    "key": "Z Port Hills truck stop",
+    "location": {
+      "lat": -43.570568,
+      "lng": 172.688169
+    }
+  },
+  {
+    "key": "Z Roscommon Rd",
+    "location": {
+      "lat": -37.0037389,
+      "lng": 174.8534937
+    }
+  },
+  {
+    "key": "Z Rotorua truck stop",
+    "location": {
+      "lat": -38.154826,
+      "lng": 176.263882
+    }
+  },
+  {
+    "key": "Z Sanson",
+    "location": {
+      "lat": -41.3110974,
+      "lng": 173.9793731
+    }
+  },
+  {
+    "key": "Z Sawyers Arms Rd truck stop",
+    "location": {
+      "lat": -43.4801627,
+      "lng": 172.589725
+    }
+  },
+  {
+    "key": "Z Seaview",
+    "location": {
+      "lat": 53.7737007,
+      "lng": -1.7490951
+    }
+  },
+  {
+    "key": "Z Sylvia Park",
+    "location": {
+      "lat": -36.924931,
+      "lng": 174.8421608
+    }
+  },
+  {
+    "key": "Z Takaka truck stop",
+    "location": {
+      "lat": 51.519741,
+      "lng": -0.0741989
+    }
+  },
+  {
+    "key": "Z Te Kuiti",
+    "location": {
+      "lat": -38.3235205,
+      "lng": 175.1527453
+    }
+  },
+  {
+    "key": "Z Templeton",
+    "location": {
+      "lat": -43.549495,
+      "lng": 172.4883507
+    }
+  },
+  {
+    "key": "Z Tokoroa truck stop",
+    "location": {
+      "lat": -27.4794932,
+      "lng": 153.0143024
+    }
+  },
+  {
+    "key": "Z Waharoa truck stop",
+    "location": {
+      "lat": 26.9217744,
+      "lng": 83.7022706
+    }
+  },
+  {
+    "key": "Z Waiouru",
+    "location": {
+      "lat": -41.3110974,
+      "lng": 173.9793731
+    }
+  },
+  {
+    "key": "Z Waipapa truck stop",
+    "location": {
+      "lat": -35.2171467,
+      "lng": 173.9202279
+    }
+  },
+  {
+    "key": "Z Wairoa",
+    "location": {
+      "lat": -32.7176054,
+      "lng": 152.1640829
+    }
+  },
+  {
+    "key": "Z Whangarei truck stop",
+    "location": {
+      "lat": -35.7442595,
+      "lng": 174.3268376
+    }
+  },
+  {
+    "key": "Z Winton truck stop",
+    "location": {
+      "lat": 55.0254504,
+      "lng": -1.6224768
+    }
+  },
+  {
+    "key": "Z Washdyke truck stop",
+    "location": {
+      "lat": -33.8463755,
+      "lng": 151.021607
+    }
+  },
+  {
+    "key": "Z Bombay",
+    "location": {
+      "lat": 46.488446,
+      "lng": -80.7684022
+    }
+  },
+  {
+    "key": "Z Russley",
+    "location": {
+      "lat": -43.5200443,
+      "lng": 172.5350451
+    }
+  },
+  {
+    "key": "Z Rangiora",
+    "location": {
+      "lat": -43.30372250000001,
+      "lng": 172.5900189
+    }
+  },
+  {
+    "key": "Z Sandringham",
+    "location": {
+      "lat": -36.8848714,
+      "lng": 174.738734
+    }
+  },
+  {
+    "key": "Z Rolleston",
+    "location": {
+      "lat": 51.5152387,
+      "lng": -0.3957039000000001
+    }
+  },
+  {
+    "key": "Z Ashburton South truck stop",
+    "location": {
+      "lat": -43.911949,
+      "lng": 171.7462105
+    }
+  },
+  {
+    "key": "Z Remutaka",
+    "location": {
+      "lat": -41.1088661,
+      "lng": 175.0973327
+    }
+  },
+  {
+    "key": "Z Remutaka truck stop",
+    "location": {
+      "lat": -41.1088661,
+      "lng": 175.0973327
+    }
+  },
+  {
+    "key": "Z Nelson Port truck stop",
+    "location": {
+      "lat": -33.9101333,
+      "lng": 150.9147737
+    }
+  },
+  {
+    "key": "Z Bombay truck stop",
+    "location": {
+      "lat": -37.0843879,
+      "lng": 174.9420288
+    }
+  },
+  {
+    "key": "Z Kinleith Tram Road",
+    "location": {
+      "lat": 34.1267148,
+      "lng": -93.5010952
+    }
+  },
+  {
+    "key": "Z Morrinsville truck stop",
+    "location": {
+      "lat": -37.9914946,
+      "lng": 145.220666
+    }
+  },
+  {
+    "key": "Z Truck Stop Old Hutt Rd",
+    "location": {
+      "lat": -41.2362634,
+      "lng": 174.8323619
+    }
+  }
+]
