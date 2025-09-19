@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const API_KEY = 'AIzaSyBWsenMBkzWWUVeTD3m-nU2RSvKXi1XsDI';
+const API_KEY = 'oopsies';
 
 const stations = JSON.parse(fs.readFileSync("stations.json", "utf-8"));
 
