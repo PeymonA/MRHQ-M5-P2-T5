@@ -11,7 +11,7 @@ import MapComponent from '../components/MapComponent.jsx'
 
 
 function MapPage() {
-  const [state, setState] = useState('');
+  const [state, setState] = useState({stationType: 'no station', fuelType: 'no fuel'});
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>

@@ -14,8 +14,8 @@ router.get("/", async (request, response) => {
 
 router.post("/filter", async (request, response) => {
   const {services, stationType, fuelType} = request.body;
-
-  const stations = await stationModel.find({ services: { $in: [services] } });
+  console.log(services);
+  const stations = await stationModel.find({ services: { $all: services } });
   try {
     response.send(stations);
   } catch (error) {
@@ -32,11 +32,5 @@ router.delete("/", async (request, response) => {
     response.status(500).send(error);
   }
 });
-
-/*
-router.post("/", async (request, response) => { 
-  //todo
-});
-*/
 
 module.exports = router;

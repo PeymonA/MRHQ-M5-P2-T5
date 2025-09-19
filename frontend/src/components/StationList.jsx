@@ -6,7 +6,7 @@ function StationList(props) {
 
   useEffect(() => {
     const fetchData = async () => {
-      if (props.state === '') {
+      if (JSON.stringify(props.state) === JSON.stringify({stationType: 'no station', fuelType: 'no fuel'})) {
           const response = await fetch("http://localhost:3000/stations", {
           method: 'GET',
           headers: {
@@ -17,9 +17,7 @@ function StationList(props) {
         setStations(data);
       }
       else { 
-        const formdata = props.state;
-        const formJson = Object.fromEntries(formdata.entries());
-        console.log(formJson);
+        const formJson = props.state;
         const response = await fetch("http://localhost:3000/stations/filter", {
           method: 'POST',
           body: JSON.stringify(formJson),
