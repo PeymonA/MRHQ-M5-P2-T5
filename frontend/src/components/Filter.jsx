@@ -32,9 +32,9 @@ function Filter(props) {
   return (
     <div className='filter-container'>
       <form method="post" onSubmit={handleSubmit}>
-        <div className='divider'>
+        <div className='dividerServices'>
           <label htmlFor="services-select">Services</label>
-            <select id="services-select" name='services' multiple={true}>
+          <select id="services-select" name='services' multiple={true}>
             <option value="EV Charging - Fast">EV Charging - Fast</option>
             <option value="EV Charging - Ultra-Fast">EV Charging - Ultra-Fast</option>
             <option value="EV Charging - Fast &/or Ultra-Fast">EV Charging - Fast &/or Ultra-Fast</option>
@@ -83,7 +83,9 @@ function Filter(props) {
           </select>
         </div>
         <div className='divider'>
-          <button type="submit" className='filter-button'>Apply Filters</button>
+          <button type="submit" className='filter-button'>
+            <p>Apply Filters</p>
+          </button>
         </div>
       </form>
     </div>

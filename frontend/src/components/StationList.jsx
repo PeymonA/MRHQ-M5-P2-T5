@@ -45,23 +45,25 @@ function StationList(props) {
 
   return (
     <div className="list-map-container">
-      <div style={{width: '40%', height: '710px', backgroundColor: 'green', overflowY: 'auto' }}>
+      <div className='spacer'></div>
+      <div className="station-container">
         {isLoading ? (
           <p>Loading stations...</p>
         ) : (
-          <>
-            <p>{stations.length} Stations found</p>
+          <div className='station-list'>
+            <p className="station-count">{stations.length} Stations found</p>
             <ul>
               {stations.map((station) => (
-                <li key={station._id}>
-                  <p>{station.title}</p>
+                <li key={station._id} className="station-card">
+                  <h2>{station.title}</h2>
                   <p>{station.address}</p>
                   <p>{station.hours}</p>
+                  <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
                 </li>
               ))}
             </ul>
-          </>
+          </div>
         )}
       </div>
       {!isLoading && <MapComponent stations={stations} setStations={setStations} />}
