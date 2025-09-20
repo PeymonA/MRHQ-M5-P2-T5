@@ -1,5 +1,4 @@
 .filter-container {
-    width: 1440px;
     height: 112px;
     background-color: var(--Neutral-0, #FFF);
     display: flex;
@@ -10,7 +9,7 @@
 .filter-items {
     display: flex;
     flex-direction: column;
-    margin-left: 243px;
+    padding-left: 12.5%;
 }
 
 .label-container {

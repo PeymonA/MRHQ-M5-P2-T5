@@ -33,7 +33,7 @@ function StationList(props) {
   }, [props.state])
 
   return (
-    <div style={{ width: '631px', height: '710px', backgroundColor: 'green', overflowY: 'auto' }}>
+    <div style={{width: '40%', height: '710px', backgroundColor: 'green', overflowY: 'auto' }}>
       <ul>
         {stations.map((station) => (
           <li key={station._id}>
