@@ -1,5 +1,113 @@
 .filter-container {
     width: 1440px;
     height: 112px;
-    background-color: red;
+    background-color: var(--Neutral-0, #FFF);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 243px;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.label-container label {
+    color: #848484;
+    /* P SemiBold */
+    font-family: "Test Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.08px;
+}
+
+.other-labels {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.other-labels > * {
+    flex: 1;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.services-label {
+    display: flex;
+    flex-direction: row;
+    margin-right: 155px;
+    margin-left: 15px;
+}
+
+.filter-container-child {
+    display: flex;
+    flex: 1;
+}
+
+.filter-container-child form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.filter-container-child select {
+    min-width: 150px;
+    max-width: 200px;
+    padding: 8px 12px;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.filter-button {
+    border-radius: 25px;
+    background: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    color: #FFF;
+    font-family: "Test Calibre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 8px 36px 12px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.select-single-container {
+    border-radius: 5px;
+    border: 1px solid #848484;
+    background: var(--Neutral-0, #FFF);
+    display: flex;
+    align-items: center;
+    width: 175px;
+    flex-shrink: 0;
+}
+
+.select-single-container select {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 8px 12px;
+    color: #848484;
+    /* Small Text */
+    font-family: "Test Calibre";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.042px;
 }
