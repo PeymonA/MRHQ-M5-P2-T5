@@ -10,7 +10,7 @@
 .station-count {
     color: var(--Neutral-900, #232323);
     /* H3 */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -29,7 +29,7 @@
 .station-card h2 {
     color: var(--Neutral-900, #232323);
     /* H2 */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -39,7 +39,7 @@
 .station-card p {
     color: var(--Neutral-900, #232323);
     /* P */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -49,7 +49,7 @@
 .station-card h3 {
     color: var(--Christine-Orange-christine-orange-500, #ED560E);
     /* H3 */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;

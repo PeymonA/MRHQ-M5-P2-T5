@@ -1,7 +1,7 @@
 label {
     color: #848484;
     /* P SemiBold */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -22,7 +22,6 @@ label {
     border-radius: 25px;
     background: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
     display: flex;
-    width: 140px;
     height: 44px;
     padding: 13px 36px;
     justify-content: center;
@@ -33,7 +32,7 @@ label {
 .divider button p {
     color: var(--Neutral-0, #FFF);
     /* H3 */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +48,7 @@ select {
     align-self: stretch;
     color: #848484;
     /* Small Text */
-    font-family: "Test Calibre";
+    font-family: "Calibre";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -71,5 +70,8 @@ form {
     display: flex;
     justify-content: center;
     height: 118px;
+}
+#apply-filters-button-label {
+    color: #ffffff;
 }
 

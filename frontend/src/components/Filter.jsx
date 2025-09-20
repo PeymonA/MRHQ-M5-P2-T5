@@ -83,7 +83,8 @@ function Filter(props) {
           </select>
         </div>
         <div className='divider'>
-          <button type="submit" className='filter-button'>
+          <label htmlFor="apply-filters-button" id='apply-filters-button-label'>Apply Filters</label>
+          <button type="submit" className='filter-button' id='apply-filters-button'>
             <p>Apply Filters</p>
           </button>
         </div>

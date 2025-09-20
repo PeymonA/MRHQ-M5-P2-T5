@@ -6,3 +6,8 @@ font-family: sans-serif;
 width: 100vw;
 height: 100vh;
 }
+@font-face {
+    font-family: "Calibre";
+    src: local("Calibre"), url("../fonts/TestCalibre-Regular.otf") format("opentype");
+    font-weight: normal;
+}
