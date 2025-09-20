@@ -14,7 +14,6 @@ const PoiMarkers = (props) => {
   const clusterer = useRef(null);
 
   console.log('POI Markers props:', props.pois);
-  console.log('1 poi:', props.pois[0]);
 
   useEffect(() => {
     if (!map) return;
