@@ -9,7 +9,6 @@
 .filter-items {
     display: flex;
     flex-direction: column;
-    padding-left: 12.5%;
 }
 
 .label-container {

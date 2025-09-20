@@ -13,6 +13,9 @@ const PoiMarkers = (props) => {
   const [markers, setMarkers] = useState({});
   const clusterer = useRef(null);
 
+  console.log('POI Markers props:', props.pois);
+  console.log('1 poi:', props.pois[0]);
+
   useEffect(() => {
     if (!map) return;
     if (!clusterer.current) {
@@ -40,12 +43,16 @@ const PoiMarkers = (props) => {
     });
   };
 
+  if (!props.pois || props.pois.length === 0) {
+    return null; // Return nothing if no POIs
+  }
+
   return (
     <>
       {props.pois.map( (poi) => (
         <AdvancedMarker
           key={poi.key}
-          position={poi.location}
+          position={{ lat: poi.location.lat, lng: poi.location.lng }}
           ref={marker => setMarkerRef(marker, poi.key)}
           >
             <Pin background={'#FBBC04'} glyphColor={'#000'} borderColor={'#000'} />

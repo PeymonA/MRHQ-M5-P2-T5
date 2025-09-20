@@ -3,17 +3,34 @@ import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import PoiMarkers from './PoiMarkers';
 import { useEffect, useState } from 'react';
 
-function MapComponent() {
+function MapComponent(props) {
   const [pins, setPins] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:3000/geocodes');
-      const data = await response.json();
-      setPins(data);
+      if (props.stations.length === 227) {
+        const response = await fetch('http://localhost:3000/geocodes', {
+          method: 'GET'
+        });
+        const data = await response.json();
+        setPins(data);
+        console.log('Fetched all geocodes from MapComponent:', data);
+      }
+      else {
+        const response = await fetch('http://localhost:3000/geocodes', {
+          method: 'POST',
+          body: JSON.stringify(props.stations),
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+        const data = await response.json();
+        setPins(data);
+        console.log('Fetched filtered geocodes from MapComponent:', data);
+      }
     };
     fetchData();
-  }, []);
+  }, [props.stations]);
   
   
   return (

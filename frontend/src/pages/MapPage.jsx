@@ -11,16 +11,14 @@ import MapComponent from '../components/MapComponent.jsx'
 
 function MapPage() {
   const [state, setState] = useState({ stationType: 'no station', fuelType: 'no fuel'});
+  const [stations, setStations] = useState([]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <Nav />
       <SearchBar />
       <Filter state={state} setState={setState} />
-      <div className="list-map-container">
-        <StationList state={state} setState={setState} />
-        <MapComponent  />
-      </div>
+      <StationList state={state} setState={setState} stations={stations} setStations={setStations} />
       <Footer />
     </div>
   )

@@ -1,7 +1,8 @@
 function Hero() {
 
   return (
-    <img src='/hero.svg' alt='hero'  />
+    <div style={{ backgroundImage: "url('/hero.svg')" , height: '516px'}}>
+    </div>
   )
 }
 

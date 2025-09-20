@@ -13,7 +13,6 @@ router.get("/", async (request, response) => {
 
 router.post("/filter", async (request, response) => {
   const {services, stationType, fuelType} = request.body;
-  console.log(services);
   const stations = await stationModel.find({ services: { $all: services } });
   try {
     response.send(stations);
