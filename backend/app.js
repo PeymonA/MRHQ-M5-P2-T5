@@ -10,7 +10,6 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var indexRouter = require('./routes/index');
-var getStationRouter = require('./routes/station');
 var getStationsRouter = require('./routes/stations');
 var getGeocodesRouter = require('./routes/geocodes');
 
@@ -31,7 +30,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 mongoose.connect('mongodb://localhost:27017/m5');
 
 app.use('/', indexRouter);
-app.use('/station', getStationRouter);
 app.use('/stations', getStationsRouter);
 app.use('/geocodes', getGeocodesRouter);
 

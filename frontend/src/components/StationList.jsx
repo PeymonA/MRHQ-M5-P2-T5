@@ -57,7 +57,15 @@ function StationList(props) {
                 <li key={station._id} className="station-card">
                   <h2>{station.title}</h2>
                   <p>{station.address}</p>
-                  <p>{station.hours}</p>
+                  {typeof station.hours === 'string' ? (
+                    <p>{station.hours}</p>
+                  ) : (
+                    <ul>
+                      {Object.entries(station.hours.hours).map(([day, time]) => (
+                        <li key={day}>{day}: {time}</li>
+                      ))}
+                    </ul>
+                  )}
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
                 </li>
