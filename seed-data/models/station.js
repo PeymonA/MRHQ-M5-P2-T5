@@ -16,7 +16,7 @@ const stationSchema = new Schema({
     },
 
     hours: {
-        type: mongoose.Schema.Types.Mixed,
+        type: String,
         required: true,
     },
 

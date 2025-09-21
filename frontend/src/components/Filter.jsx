@@ -31,9 +31,13 @@ function Filter(props) {
 
   return (
     <div className='filter-container'>
-      <form method="post" onSubmit={handleSubmit}>
-        <div className='dividerServices'>
-          <label htmlFor="services-select">Services</label>
+      <div className='label-container'>
+        <label htmlFor="services-select">Services</label>
+        <label htmlFor="station-type-select">Station Type</label>
+        <label htmlFor="fuel-type-select">Fuel Type</label>
+      </div>
+      <div className='filter-container-child'>
+        <form method="post" onSubmit={handleSubmit}>
           <select id="services-select" name='services' multiple={true}>
             <option value="EV Charging - Fast">EV Charging - Fast</option>
             <option value="EV Charging - Ultra-Fast">EV Charging - Ultra-Fast</option>
@@ -56,17 +60,12 @@ function Filter(props) {
             <option value="Fast fill Diesel lane">Fast fill Diesel lane</option>
             <option value="ATM">ATM</option>
           </select>
-        </div>
-        <div className='divider'>
-          <label htmlFor="station-type-select">Station Type</label>
+            
           <select id="station-type-select" name="stationType">
             <option value="no station">Select Station Type</option>
             <option value="Truck Stop">Truck Stop</option>
             <option value="Service Station">Service Station</option>
           </select>
-        </div>
-        <div className='divider'>
-          <label htmlFor="fuel-type-select">Fuel Type</label>
           <select id="fuel-type-select" name="fuelType">
             <option value="no fuel">Select Fuel Type</option>
             <option value="Diesel with Techron D">Diesel with Techron D</option>
@@ -75,20 +74,9 @@ function Filter(props) {
             <option value="Z Diesel">Z Diesel</option>
             <option value="Z DEC">Z DEC</option>
           </select>
-        </div>
-        <div className='divider'>
-          <label htmlFor="sort-by-select">Sort By</label>
-          <select id="sort-by-select">
-            <option value="no sort">Sort By</option>
-          </select>
-        </div>
-        <div className='divider'>
-          <label htmlFor="apply-filters-button" id='apply-filters-button-label'>Apply Filters</label>
-          <button type="submit" className='filter-button' id='apply-filters-button'>
-            <p>Apply Filters</p>
-          </button>
-        </div>
-      </form>
+          <button type="submit">Apply Filters</button>
+        </form>
+      </div>
     </div>
   )
 }
