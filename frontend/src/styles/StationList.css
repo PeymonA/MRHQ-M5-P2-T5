@@ -63,3 +63,21 @@
 .spacer {
     width: 12.5%;
 }
+li {
+    color: var(--Neutral-700, #616161);
+    /* P */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.048px;
+}
+.times {
+    display: flex;
+    flex-direction: row;
+}
+.day{
+    width: 100px;
+    margin-right: 50px;
+}

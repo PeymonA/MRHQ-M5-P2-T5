@@ -60,11 +60,17 @@ function StationList(props) {
                   {typeof station.hours === 'string' ? (
                     <p>{station.hours}</p>
                   ) : (
-                    <ul>
-                      {Object.entries(station.hours.hours).map(([day, time]) => (
-                        <li key={day}>{day}: {time}</li>
-                      ))}
-                    </ul>
+                    <div>
+                      <h3>Opening Hours:</h3>
+                      <ul>
+                        {Object.entries(station.hours.hours).map(([day, time]) => (
+                          <div className='times'>
+                            <li key={day} className='day'>{day} </li>
+                            <li key={time} className='time'>{time}</li>
+                          </div>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
