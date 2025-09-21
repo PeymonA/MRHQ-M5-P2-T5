@@ -1,12 +1,22 @@
-import '../styles/MapPage.css'
-import { Link } from 'react-router-dom';
+import FindStation from '../components/FindStation';
+import Nav from '../components/Nav';
+import '../styles/LandingPage.css'
+import Hero from '../components/Hero';
+import WhatYouNeed from '../components/WhatYouNeed';
+import MakeTheMostOfZ from '../components/makeTheMostOfZ';
+import Footer from '../components/Footer';
 
 function LandingPage() {
 
   return (
-    <>
-      <p>Go to the <Link to="/map">Map Page</Link>.</p>
-    </>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <Nav />
+      <FindStation />
+      <Hero />
+      <WhatYouNeed />
+      <MakeTheMostOfZ />
+      <Footer />
+    </div>
   )
 }
 

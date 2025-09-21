@@ -10,9 +10,8 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var indexRouter = require('./routes/index');
-var getStationRouter = require('./routes/station');
 var getStationsRouter = require('./routes/stations');
-
+var getGeocodesRouter = require('./routes/geocodes');
 
 var app = express();
 
@@ -31,8 +30,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 mongoose.connect('mongodb://localhost:27017/m5');
 
 app.use('/', indexRouter);
-app.use('/station', getStationRouter);
 app.use('/stations', getStationsRouter);
+app.use('/geocodes', getGeocodesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
