@@ -3,7 +3,9 @@ import '../styles/Footer.css'
 function Footer() {
 
   return (
-    <img src='/footer.svg' alt='footer'  />
+    <div style={{ width: '1440px', height: '464px', backgroundColor: 'yellow' }}>
+      <p>Footer</p>
+    </div>
   )
 }
 
