@@ -7,6 +7,7 @@ mongoose.Promise = global.Promise;
 const db = mongoose.connect('mongodb://localhost:27017/m5');
 
 const Station = require('./models/station');
+const { get } = require('http');
 
 // Seed db
 const seed = async () => {

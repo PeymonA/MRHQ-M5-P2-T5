@@ -136,7 +136,14 @@ function StationList(props) {
                     </div>
                   )}
                   <h3>Fuel Types:</h3>
-                  <p>{station.fuelTypes.join(", ")}</p>
+                  <div className="fuel-types">
+                    {station.fuelTypes.map((fuelType, index) => (
+                      <div key={index} className="fuel-item">
+                        <span className="fuel-name">{fuelType.fuel}</span>
+                        <span className="fuel-price">{fuelType.price}</span>
+                      </div>
+                    ))}
+                  </div>
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
                 </li>

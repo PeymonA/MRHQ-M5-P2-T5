@@ -154,3 +154,13 @@ li {
     display: flex;
     flex-direction: row;
 }
+.fuel-types {
+    display: flex;
+    flex-direction: row;
+}
+.fuel-name{
+    margin-right: 4px;
+}
+.fuel-price{
+    margin-right: 8px;
+}

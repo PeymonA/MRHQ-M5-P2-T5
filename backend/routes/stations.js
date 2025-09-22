@@ -2,6 +2,11 @@ var express = require('express');
 const stationModel = require("../models/station");
 var router = express.Router();
 
+function getRandomFloat(min, max, decimals = 2) {
+      const randomFloat = Math.random() * (max - min) + min;
+      return (Math.round(randomFloat * Math.pow(10, decimals)) / Math.pow(10, decimals)) * 100;
+}
+
 async function stationsToJson(stations) {
   let stationsReturn = [];
   for (let station of stations) {
@@ -17,7 +22,12 @@ async function stationsToJson(stations) {
         Saturday: newStation.hours[5]?.time || "N/A",
         Sunday: newStation.hours[6]?.time || "N/A",
       }};
-      
+
+      const returnFuelTypes = newStation.fuelTypes.map(fuelType => ({
+        fuel: fuelType,
+        price: getRandomFloat(2.5, 3.5)
+      }));
+
       const stationJson = {
         _id: newStation._id,
         title: newStation.title,
@@ -25,7 +35,7 @@ async function stationsToJson(stations) {
         hours: returnHours,
         phone: newStation.phone,
         services: newStation.services,
-        fuelTypes: newStation.fuelTypes
+        fuelTypes: returnFuelTypes
       };
       stationsReturn.push(stationJson);
     }
