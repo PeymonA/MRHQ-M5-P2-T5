@@ -30,6 +30,12 @@ async function stationsToJson(stations) {
         price: getRandomFloat(2.5, 3.5)
       }));
 
+      if (returnFuelTypes[0].fuel === 'ZX Premium') {
+        const temp = returnFuelTypes[0];
+        returnFuelTypes[0] = returnFuelTypes[1];
+        returnFuelTypes[1] = temp;
+      }
+
       const stationJson = {
         _id: newStation._id,
         title: newStation.title,
