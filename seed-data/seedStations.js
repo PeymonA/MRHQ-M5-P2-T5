@@ -13,14 +13,16 @@ const seed = async () => {
   try {
     await Station.deleteMany({});
 
-    fs.readFileSync('stations.json', 'utf-8');
-    const stations = JSON.parse(fs.readFileSync('stations.json', 'utf-8'));
+    fs.readFileSync('detailedStations.json', 'utf-8');
+    const stations = JSON.parse(fs.readFileSync('detailedStations.json', 'utf-8'));
     for (const station of stations) {
-        const title = station.title;
+        const title = station.name;
         const address = station.address;
         const hours = station.hours;
+        const phone = station.phone;
         const services = station.services;
-        await Station.create({ title, address, hours, services });
+        const fuelTypes = station.fuelTypes;
+        await Station.create({ title, address, hours, phone, services, fuelTypes });
     }
     
     console.info("DB Seeded");

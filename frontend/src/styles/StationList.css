@@ -139,3 +139,18 @@ li {
     display: inline-flex;
     margin-left: 8px;
 }
+#phone {
+    color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    /* P SemiBold */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.08px;
+    margin-left: 4px;
+}
+.phone-div {
+    display: flex;
+    flex-direction: row;
+}

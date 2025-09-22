@@ -46,7 +46,6 @@ const scrape = async () => {
 
             const hoursDiv = station.querySelector(".locator-hours");
             let hours;
-            
             if (hoursDiv) {
                 // Look for table (should be visible now after button clicks)
                 const table = hoursDiv.querySelector("table");
@@ -97,6 +96,9 @@ const scrape = async () => {
             }
             
             const services = station.querySelectorAll("ul li");
+
+            let phone;
+            
             return {
                 title: title ? title.textContent.trim() : null,
                 address: address ? address.textContent.trim() : null,

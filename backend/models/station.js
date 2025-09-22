@@ -20,9 +20,18 @@ const stationSchema = new Schema({
         required: true,
     },
 
+    phone: {
+        type: String
+    },
+
     services: {
         type: [String],
-    }
+    },
+
+    fuelTypes: {
+        type: [String],
+    },
+
 });
 
 stationSchema.index({ title: 'text' });

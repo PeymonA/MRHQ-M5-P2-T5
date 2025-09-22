@@ -58,8 +58,8 @@ function StationList(props) {
                 <li key={station._id} className="station-card">
                   <h2>{station.title}</h2>
                   <p>{station.address}</p>
-                  {typeof station.hours === 'string' ? (
-                    <p id='open-24'>{station.hours}</p>
+                  {station.hours.hours['Monday'] === 'Open 24 hours' ? (
+                    <p id='open-24'>Open 24 hours</p>
                   ) : (
                     (() => {
                       // Helper function to check if current time is within the opening hours
@@ -129,6 +129,14 @@ function StationList(props) {
                       );
                     })()
                   )}
+                  {station.phone === "N/A" ? (<p></p>) : (
+                    <div className='phone-div'>
+                      <img src='phone.svg' alt='phone icon' className='phone-icon'/>
+                      <p id='phone'>Call us {station.phone}</p>
+                    </div>
+                  )}
+                  <h3>Fuel Types:</h3>
+                  <p>{station.fuelTypes.join(", ")}</p>
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
                 </li>
