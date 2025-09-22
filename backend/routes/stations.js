@@ -35,7 +35,8 @@ async function stationsToJson(stations) {
         hours: returnHours,
         phone: newStation.phone,
         services: newStation.services,
-        fuelTypes: returnFuelTypes
+        fuelTypes: returnFuelTypes,
+        fuelTypesSearch: newStation.fuelTypes
       };
       stationsReturn.push(stationJson);
     }
@@ -56,16 +57,16 @@ router.get("/", async (request, response) => {
 });
 
 router.post("/filter", async (request, response) => {
-  const {services, stationType, fuelType} = request.body;
+  const {services, fuelType} = request.body;
   let stations;
   if (fuelType === 'no fuel' ) {
     stations = await stationModel.find({ services: { $all: services } });
   }
-  else if (services.length === 0) {
-    stations = await stationModel.find({ fuelTypes: { $all: fuelType } });
+  else if (!services) {
+    stations = await stationModel.find({ fuelTypes: { $in: fuelType } });
   }
   else {
-    stations = await stationModel.find({ services: { $all: services }, fuelTypes: { $all: fuelType } });
+    stations = await stationModel.find({ services: { $all: services }, fuelTypes: { $in: fuelType } });
   }
   const stationsReturn = await stationsToJson(stations);
   try {

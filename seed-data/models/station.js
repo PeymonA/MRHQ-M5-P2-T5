@@ -29,7 +29,7 @@ const stationSchema = new Schema({
     },
 
     fuelTypes: {
-        type: mongoose.Schema.Types.Mixed,
+        type: [String],
     },
 
 });

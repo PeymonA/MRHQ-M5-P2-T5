@@ -17,6 +17,7 @@ function MapComponent(props) {
         console.log('Fetched all geocodes from MapComponent:', data);
       }
       else {
+        console.log('Fetching filtered geocodes from MapComponent with stations:', props.stations);
         const response = await fetch('http://localhost:3000/geocodes', {
           method: 'POST',
           body: JSON.stringify(props.stations),
