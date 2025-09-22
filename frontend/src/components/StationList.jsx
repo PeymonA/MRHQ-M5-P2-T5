@@ -5,6 +5,7 @@ import MapComponent from './MapComponent.jsx'
 function StationList(props) {
   const [stations, setStations] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const dateTime = new Date();
   
   useEffect(() => {
     const fetchData = async () => {
@@ -58,19 +59,75 @@ function StationList(props) {
                   <h2>{station.title}</h2>
                   <p>{station.address}</p>
                   {typeof station.hours === 'string' ? (
-                    <p>{station.hours}</p>
+                    <p id='open-24'>{station.hours}</p>
                   ) : (
-                    <div>
-                      <h3>Opening Hours:</h3>
-                      <ul>
-                        {Object.entries(station.hours.hours).map(([day, time]) => (
-                          <div className='times'>
-                            <li key={day} className='day'>{day} </li>
-                            <li key={time} className='time'>{time}</li>
-                          </div>
-                        ))}
-                      </ul>
-                    </div>
+                    (() => {
+                      // Helper function to check if current time is within the opening hours
+                      function isWithinTimeRange(date, range) {
+                        // Example range: "5am - 10pm"
+                        const [startStr, endStr] = range.split("-").map(s => s.trim().toLowerCase());
+
+                        // Helper to parse "5am"/"10pm" into minutes since midnight
+                        function parseTime(str) {
+                          const match = str.match(/(\d+)(?::(\d+))?\s*(am|pm)?/);
+                          if (!match) throw new Error("Invalid time string: " + str);
+
+                          let hours = parseInt(match[1], 10);
+                          const minutes = parseInt(match[2] || "0", 10);
+                          const meridian = match[3];
+
+                          if (meridian === "pm" && hours !== 12) hours += 12;
+                          if (meridian === "am" && hours === 12) hours = 0;
+
+                          return hours * 60 + minutes; // total minutes from midnight
+                        }
+
+                        const startMinutes = parseTime(startStr);
+                        const endMinutes = parseTime(endStr);
+
+                        // Current time in minutes
+                        const currentMinutes = date.getHours() * 60 + date.getMinutes();
+
+                        // Handles ranges that don’t cross midnight (e.g., 5am - 10pm)
+                        if (startMinutes <= endMinutes) {
+                          return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
+                        }
+
+                        // Handles ranges that cross midnight (e.g., 10pm - 5am)
+                        return currentMinutes >= startMinutes || currentMinutes <= endMinutes;
+                      }
+
+                      // Get today's opening hours string
+                      const todayIndex = dateTime.getDay() - 1 < 0 ? 6 : dateTime.getDay() - 1; // Sunday=0, so wrap to 6
+                      const todayEntry = Object.entries(station.hours.hours)[todayIndex];
+                      const todayHours = todayEntry ? todayEntry[1] : "";
+
+                      const testHours = "5am - 2pm"; // Example hours for testing
+
+                      let isOpen = false;
+                      if (typeof todayHours === "string" && todayHours.toLowerCase() !== "closed") {
+                        try {
+                          isOpen = isWithinTimeRange(dateTime, todayHours);
+                        } catch (e) {
+                          isOpen = false;
+                        }
+                      }
+
+                      return (
+                        <div>
+                          <p id={isOpen ? "open" : "closed"}>{isOpen ? "Open now" : "Closed"}</p>
+                          <h3 id='opening-hours'>Opening hours:</h3>
+                          <ul>
+                            {Object.entries(station.hours.hours).map(([day, time], index) => (
+                              <div className='times' key={index}>
+                                <li key={day} className='day'>{day} </li>
+                                <li key={time} className='time'>{time}</li>
+                              </div>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })()
                   )}
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>

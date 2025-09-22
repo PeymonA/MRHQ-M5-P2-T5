@@ -79,5 +79,63 @@ li {
 }
 .day{
     width: 100px;
-    margin-right: 50px;
+    margin-right: 60px;
+}
+
+#open {
+    display: inline-flex;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-green, #00872F);
+    color: var(--tertiary-green, #00872F);
+    /* P */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.048px;
+}
+
+#open-24 {
+    display: inline-flex;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-green, #00872F);
+    color: var(--tertiary-green, #00872F);
+    /* P */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.048px;
+}
+
+#closed {
+    display: inline-flex;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-red, #D70015);
+    color: var(--tertiary-red, #D70015);
+    /* P */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.048px;
+}
+#opening-hours {
+    display: inline-flex;
+    margin-left: 8px;
 }
