@@ -139,7 +139,14 @@ function StationList(props) {
                   <div className="fuel-types">
                     {station.fuelTypes.map((fuelType, index) => (
                       <div key={index} className="fuel-item">
-                        <span className="fuel-name">{fuelType.fuel}</span>
+                        <span className={fuelType.fuel}></span>
+                        {
+                          fuelType.fuel === 'Z91 Unleaded'
+                            ? <img src='91.svg' alt='z91 icon' className='fuel-icon'/>
+                            : fuelType.fuel === 'ZX Premium'
+                            ? <img src='95.svg' alt='z95 icon' className='fuel-icon'/>
+                            : <img src='diesel.svg' alt='diesel icon' className='fuel-icon'/>
+                        }
                         <span className="fuel-price">{fuelType.price}</span>
                       </div>
                     ))}

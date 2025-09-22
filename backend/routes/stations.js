@@ -3,8 +3,10 @@ const stationModel = require("../models/station");
 var router = express.Router();
 
 function getRandomFloat(min, max, decimals = 2) {
-      const randomFloat = Math.random() * (max - min) + min;
-      return (Math.round(randomFloat * Math.pow(10, decimals)) / Math.pow(10, decimals)) * 100;
+  min = min * 100;
+  max = max * 100;
+  const randomFloat = Math.random() * (max - min) + min;
+  return (Math.round(randomFloat * Math.pow(10, decimals)) / Math.pow(10, decimals));
 }
 
 async function stationsToJson(stations) {
