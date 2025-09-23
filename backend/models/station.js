@@ -1,4 +1,3 @@
-const e = require('express');
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
@@ -17,13 +16,22 @@ const stationSchema = new Schema({
     },
 
     hours: {
-        type: String,
+        type: mongoose.Schema.Types.Mixed,
         required: true,
+    },
+
+    phone: {
+        type: String
     },
 
     services: {
         type: [String],
-    }
+    },
+
+    fuelTypes: {
+        type: [String],
+    },
+
 });
 
 stationSchema.index({ title: 'text' });

@@ -1,5 +1,77 @@
-.filter-container {
-    width: 1440px;
-    height: 112px;
-    background-color: red;
+label {
+    color: #848484;
+    /* P SemiBold */
+    font-family: "Calibre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.08px;
 }
+.dividerServices {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.divider {
+    display: flex;
+    flex-direction: column;
+    margin: .75vw;
+}
+.divider button {
+    border-radius: 25px;
+    background: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    display: flex;
+    height: 44px;
+    padding: 13px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.divider button p {
+    color: var(--Neutral-0, #FFF);
+    /* H3 */
+    font-family: "Calibre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.1px;
+}
+select {
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #848484;
+    /* Small Text */
+    font-family: "Calibre";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.042px;
+}
+.dividerServices select {
+    width: 224px;
+}
+.divider select {
+    width: 170px;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filter-container {
+    display: flex;
+    justify-content: center;
+    height: 118px;
+}
+#apply-filters-button-label {
+    color: #ffffff;
+}
+

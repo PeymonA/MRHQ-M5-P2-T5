@@ -1,18 +1,49 @@
 import '../styles/MapComponent.css'
-
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
+import PoiMarkers from './PoiMarkers';
+import { useEffect, useState } from 'react';
 
-function MapComponent() {
+function MapComponent(props) {
+  const [pins, setPins] = useState([]);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      if (props.stations.length === 227) {
+        const response = await fetch('http://localhost:3000/geocodes', {
+          method: 'GET'
+        });
+        const data = await response.json();
+        setPins(data);
+        console.log('Fetched all geocodes from MapComponent:', data);
+      }
+      else {
+        console.log('Fetching filtered geocodes from MapComponent with stations:', props.stations);
+        const response = await fetch('http://localhost:3000/geocodes', {
+          method: 'POST',
+          body: JSON.stringify(props.stations),
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+        const data = await response.json();
+        setPins(data);
+        console.log('Fetched filtered geocodes from MapComponent:', data);
+      }
+    };
+    fetchData();
+  }, [props.stations]);
+  
+  
   return (
-    <div style= {{width: '807px', height: '710px'}} >
+    <div style= {{width: '60%', height: '710px'}} >
       <APIProvider apiKey={import.meta.env.VITE_API_KEY} onLoad={() => console.log('Maps API has loaded.')}>
         <Map
-        defaultZoom={3}
-        defaultCenter={{lat: 22.54992, lng: 0}}
-        gestureHandling={'greedy'}
-        disableDefaultUI={true}
-        />
+          defaultZoom={5}
+          defaultCenter={ { lat: -40.9006, lng: 174.8860 } }
+          mapId='62bed989cefe108d5df871ad'
+        >
+          <PoiMarkers pois={pins} />
+        </Map>
       </APIProvider>
     </div>
   );
