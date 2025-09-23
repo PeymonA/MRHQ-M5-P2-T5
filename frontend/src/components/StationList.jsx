@@ -164,7 +164,7 @@ function StationList(props) {
                             <h3 id={`opening-hours${index}`}>Opening hours:</h3>
                             <p className='opening-hours-black' id={`${index}`}>Opening hours</p>
                             <img src='chevron-down.svg' alt='chevron down icon' id={`chevron-down-icon${index}`}
-                              onClick={() => handleArrow(index)}  />
+                              onClick={() => handleArrow(index)} className='chevron-icon' />
                           </div>
                           <ul className='hours-list' id={`hours-list${index}`}>
                             {Object.entries(station.hours.hours).map(([day, time], index) => (

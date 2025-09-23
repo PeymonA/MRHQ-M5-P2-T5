@@ -215,6 +215,7 @@ li {
     background-color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
     color: var(--Neutral-0, #FFF);
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .maps-button:visited {
@@ -245,6 +246,20 @@ li {
     line-height: 120%; /* 24px */
     letter-spacing: -0.1px;
 }
+.directions-button:hover {
+    background-color: var(--Christine-Orange-christine-orange-600, #D84E0D);
+    color: var(--Neutral-0, #FFF);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.directions-button:visited {
+    color: var(--Christine-Orange-christine-orange-600, #D84E0D);
+}
+
+.directions-button:visited:hover {
+    color: var(--Neutral-0, #FFF);
+}
 .see-more-button {
     display: flex;
     width: 179px;
@@ -266,6 +281,20 @@ li {
     line-height: 120%; /* 24px */
     letter-spacing: -0.1px;
 }
+.see-more-button:hover {
+    background-color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    color: var(--Neutral-0, #FFF);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.see-more-button:visited {
+    color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+}
+
+.see-more-button:visited:hover {
+    color: var(--Neutral-0, #FFF);
+}
 .hours-list {
     display: none;
 }
@@ -279,4 +308,7 @@ li {
 }
 .station-address {
     margin-top: 1px;
+}
+.chevron-icon {
+    cursor: pointer;
 }
