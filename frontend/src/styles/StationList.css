@@ -166,6 +166,7 @@ li {
 .fuel-types {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 .fuel-price{
     margin-right: 8px;

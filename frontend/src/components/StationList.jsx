@@ -45,7 +45,7 @@ function StationList(props) {
     fetchData();
   }, [props.state]);
 
-  function handleSeeMore(index) {
+  function handleArrow(index) {
     const toHide = document.getElementById(`${index}`);
     const toHideArrow = document.getElementById(`chevron-down-icon${index}`);
     const toShow = document.getElementById(`opening-hours${index}`);
@@ -62,6 +62,29 @@ function StationList(props) {
     }
     if (toHideArrow) {
       toHideArrow.style.display = 'none';
+    }
+  }
+
+  function handleSeeMore(index) {
+    const toHide = document.getElementById(`see-more-button${index}`);
+    const toShowMaps = document.getElementById(`maps-button${index}`);
+    const toShowFuelTypes = document.getElementById(`fuel-types${index}`);
+    const toShowServices = document.getElementById(`services${index}`);
+    if (toShowServices) {
+      toShowServices.style.display = 'flex';
+      toShowServices.style.marginTop = '0px';
+      toShowServices.style.marginBottom = '0px';
+    }
+    if (toShowFuelTypes) {
+      toShowFuelTypes.style.display = 'flex';
+      toShowFuelTypes.style.marginTop = '0px';
+      toShowFuelTypes.style.marginBottom = '2px';
+    }
+    if (toHide) {
+      toHide.style.display = 'none';
+    }
+    if (toShowMaps) {
+      toShowMaps.style.display = 'flex';
     }
   }
 
@@ -141,7 +164,7 @@ function StationList(props) {
                             <h3 id={`opening-hours${index}`}>Opening hours:</h3>
                             <p className='opening-hours-black' id={`${index}`}>Opening hours</p>
                             <img src='chevron-down.svg' alt='chevron down icon' id={`chevron-down-icon${index}`}
-                              onClick={() => handleSeeMore(index)}  />
+                              onClick={() => handleArrow(index)}  />
                           </div>
                           <ul className='hours-list' id={`hours-list${index}`}>
                             {Object.entries(station.hours.hours).map(([day, time], index) => (
@@ -161,7 +184,7 @@ function StationList(props) {
                       <p id='phone'>Call us {station.phone}</p>
                     </div>
                   )}
-                  <h3>Fuel Types:</h3>
+                  <h3 id={`fuel-types${index}`}>Fuel Types:</h3>
                   <div className="fuel-types">
                     {station.fuelTypes.map((fuelType, index) => (
                       <div key={index} className="fuel-item">
@@ -177,11 +200,13 @@ function StationList(props) {
                       </div>
                     ))}
                   </div>
-                  <h3>Services:</h3>
-                  <p>{station.services.join(", ")}</p>
+                  <h3 id={`services${index}`}>Services:</h3>
+                  <p style={{marginTop: '2px'}}>{station.services.join(", ")}</p>
                   <div className='button-container'>
-                    <button className='see-more-button'>See more</button>
-                    <button className='maps-button'>Google Maps</button>
+                    <button className='see-more-button' onClick={() => handleSeeMore(index)}
+                      id={`see-more-button${index}`}>See more</button>
+                    <button className='maps-button'
+                      id={`maps-button${index}`}>Google Maps</button>
                     <button className='directions-button'>Directions</button>
                   </div>
                 </li>
