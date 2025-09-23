@@ -29,8 +29,12 @@ const stationSchema = new Schema({
     },
 
     fuelTypes: {
-        type: [String],
+        type: mongoose.Schema.Types.Mixed,
     },
+
+    avgPrice: {
+        type: Number,
+    }
 
 });
 

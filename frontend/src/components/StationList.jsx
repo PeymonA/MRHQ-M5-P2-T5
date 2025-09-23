@@ -13,11 +13,11 @@ function StationList(props) {
       setIsLoading(true);
       try {
         if (
-          (JSON.stringify(props.state) === JSON.stringify({stationType: 'no station', fuelType: 'no fuel'})) ||
-          
+          (JSON.stringify(props.state) === JSON.stringify({stationType: 'no station', fuelType: 'no fuel', sortBy: 'no sort' })) || 
           (props.state.stationType === 'no station' && 
           props.state.fuelType === 'no fuel' && 
-          props.state.services === '') 
+          props.state.services === '' &&
+          props.state.sortBy === 'no sort') 
         ) {
             const response = await fetch("http://localhost:3000/stations", {
             method: 'GET',

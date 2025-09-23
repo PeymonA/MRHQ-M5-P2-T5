@@ -84,8 +84,10 @@ function Filter(props) {
         </div>
         <div className='divider'>
           <label htmlFor="sort-by-select">Sort By</label>
-          <select id="sort-by-select">
+          <select id="sort-by-select" name='sortBy'>
             <option value="no sort">Sort By</option>
+            <option value="Low to High">Low to High</option>
+            <option value="High to Low">High to Low</option>
           </select>
         </div>
         <div className='divider'>

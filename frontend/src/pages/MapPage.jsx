@@ -10,7 +10,7 @@ import Footer from '../components/Footer.jsx'
 import MapComponent from '../components/MapComponent.jsx'
 
 function MapPage() {
-  const [state, setState] = useState({ stationType: 'no station', fuelType: 'no fuel'});
+  const [state, setState] = useState({ stationType: 'no station', fuelType: 'no fuel', sortBy: 'no sort' });
   const [stations, setStations] = useState([]);
 
   return (
