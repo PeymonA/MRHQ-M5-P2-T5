@@ -36,6 +36,7 @@
     line-height: 110%; /* 30.8px */
     letter-spacing: -0.14px;  
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 .station-card p {
     color: var(--Neutral-900, #232323);

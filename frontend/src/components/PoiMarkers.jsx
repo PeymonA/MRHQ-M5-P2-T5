@@ -15,6 +15,16 @@ const PoiMarkers = (props) => {
 
   console.log('POI Markers props:', props.pois);
 
+  // Create the pin image element
+  const createPinElement = () => {
+    const img = document.createElement('img');
+    img.src = '/pin.svg';
+    img.alt = 'POI Pin';
+    img.style.width = '40px';
+    img.style.height = '40px';
+    return img;
+  };
+
   useEffect(() => {
     if (!map) return;
     if (!clusterer.current) {
@@ -54,7 +64,7 @@ const PoiMarkers = (props) => {
           position={{ lat: poi.location.lat, lng: poi.location.lng }}
           ref={marker => setMarkerRef(marker, poi.key)}
           >
-            <Pin background={'#FBBC04'} glyphColor={'#000'} borderColor={'#000'} />
+            <Pin glyph={createPinElement()} scale={0}/>
         </AdvancedMarker>
       ))}
     </>
