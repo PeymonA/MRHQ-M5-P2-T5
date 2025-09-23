@@ -1,31 +1,49 @@
 import '../styles/Filter.css'
+import { useState } from 'react'
+import Select from 'react-select'
 
 function Filter(props) {
+  const [selectedServices, setSelectedServices] = useState([]);
+
+  const options = [
+    { value: "EV Charging - Fast", label: "EV Charging - Fast" },
+    { value: "EV Charging - Ultra-Fast", label: "EV Charging - Ultra-Fast" },
+    { value: "EV Charging - Fast &/or Ultra-Fast", label: "EV Charging - Fast &/or Ultra-Fast" },
+    { value: "EV Charging - Coming Soon", label: "EV Charging - Coming Soon" },
+    { value: "f'real", label: "f'real" },
+    { value: "Pre-order Coffee", label: "Pre-order Coffee" },
+    { value: "Pay in app", label: "Pay in app" },
+    { value: "Z Espress Coffee & Fresh Food", label: "Z Espress Coffee & Fresh Food" },
+    { value: "Z2O carwash", label: "Z2O carwash" },
+    { value: "Trailer hire", label: "Trailer hire" },
+    { value: "LPG SWAP'n'GO", label: "LPG SWAP'n'GO" },
+    { value: "24/7 Pay at pump", label: "24/7 Pay at pump" },
+    { value: "Super long hoses", label: "Super long hoses" },
+    { value: "Bathrooms", label: "Bathrooms" },
+    { value: "A-Z Screen", label: "A-Z Screen" },
+    { value: "Pay by plate", label: "Pay by plate" },
+    { value: "Compostable Cups", label: "Compostable Cups" },
+    { value: "AdBlue Diesel Exhaust Fluid", label: "AdBlue Diesel Exhaust Fluid" },
+    { value: "Fast fill Diesel lane", label: "Fast fill Diesel lane" },
+    { value: "ATM", label: "ATM" }
+  ]
 
   const handleSubmit = (e) => {
-    // Fix so that multiple selections are captured
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
 
-    // Build formJson manually to handle multi-select
+    // Build formJson manually
     const formJson = {};
     for (const [key, value] of formData.entries()) {
-      if (formJson[key]) {
-        // If already exists, convert to array or push
-        if (Array.isArray(formJson[key])) {
-          formJson[key].push(value);
-        } else {
-          formJson[key] = [formJson[key], value];
-        }
-      } else {
-        formJson[key] = value;
-      }
+      formJson[key] = value;
     }
-    // For multi-select, ensure array for 'services'
-    if (formData.getAll('services').length > 1) {
-      formJson['services'] = formData.getAll('services');
+    
+    // Add the services from react-select state
+    if (selectedServices.length > 0) {
+      formJson['services'] = selectedServices.map(service => service.value);
     }
+    console.log(JSON.stringify(formJson));
     props.setState(formJson);
   }
 
@@ -34,28 +52,16 @@ function Filter(props) {
       <form method="post" onSubmit={handleSubmit}>
         <div className='dividerServices'>
           <label htmlFor="services-select">Services</label>
-          <select id="services-select" name='services' multiple={true}>
-            <option value="EV Charging - Fast">EV Charging - Fast</option>
-            <option value="EV Charging - Ultra-Fast">EV Charging - Ultra-Fast</option>
-            <option value="EV Charging - Fast &/or Ultra-Fast">EV Charging - Fast &/or Ultra-Fast</option>
-            <option value="EV Charging - Coming Soon">EV Charging - Coming Soon</option>
-            <option value="f'real">f'real</option>
-            <option value="Pre-order Coffee">Pre-order Coffee</option>
-            <option value="Pay in app">Pay in app</option>
-            <option value="Z Espress Coffee & Fresh Food">Z Espress Coffee & Fresh Food</option>
-            <option value="Z2O carwash">Z2O carwash</option>
-            <option value="Trailer hire">Trailer hire</option>
-            <option value="LPG SWAP'n'GO">LPG SWAP'n'GO</option>
-            <option value="24/7 Pay at pump">24/7 Pay at pump</option>
-            <option value="Super long hoses">Super long hoses</option>
-            <option value="Bathrooms">Bathrooms</option>
-            <option value="A-Z Screen">A-Z Screen</option>
-            <option value="Pay by plate">Pay by plate</option>
-            <option value="Compostable Cups">Compostable Cups</option>
-            <option value="AdBlue Diesel Exhaust Fluid">AdBlue Diesel Exhaust Fluid</option>
-            <option value="Fast fill Diesel lane">Fast fill Diesel lane</option>
-            <option value="ATM">ATM</option>
-          </select>
+          <Select 
+            id="services-select" 
+            name='services' 
+            options={options} 
+            isMulti={true}
+            value={selectedServices}
+            onChange={setSelectedServices}
+            className="react-select-container"
+            classNamePrefix="react-select"
+          />
         </div>
         <div className='divider'>
           <label htmlFor="station-type-select">Station Type</label>
