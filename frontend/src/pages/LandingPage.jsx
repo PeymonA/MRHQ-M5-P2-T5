@@ -1,5 +1,12 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import "./LandingPage.css";
+
+import FindStation from '../components/FindStation';
+import Nav from '../components/Nav';
+import '../styles/LandingPage.css'
+import Hero from '../components/Hero';
+import WhatYouNeed from '../components/WhatYouNeed';
+import MakeTheMostOfZ from '../components/makeTheMostOfZ';
+import Footer from '../components/Footer';
+
 
 /**
  * Mock "database" for the search UI.
@@ -12,6 +19,7 @@ const MOCK_STATIONS = [
   { id: 4, name: "Z Vivian Street", city: "Wellington", services: ["Trailer hire", "Coffee"], distanceKm: 494 },
   { id: 5, name: "Z Moorhouse", city: "Christchurch", services: ["LPG bottle swap", "Food and drink"], distanceKm: 764 },
 ];
+
 
 /**
  * Very light client-side "auth".

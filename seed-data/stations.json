@@ -115,7 +115,36 @@
   {
     "title": "Z Barrington",
     "address": "253 Barrington Street, Christchurch",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 11:59pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 11:59pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -177,7 +206,36 @@
   {
     "title": "Z Bishopdale",
     "address": "210 Harewood Road, Bishopdale, Christchurch",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 8:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "Trailer hire",
@@ -189,7 +247,36 @@
   {
     "title": "Z Botany Downs",
     "address": "550 Te Irirangi Drive, Botany Downs, Auckland",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5am - 10pm"
+      }
+    ],
     "services": [
       "EV Charging - Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -261,7 +348,36 @@
   {
     "title": "Z Bryndwr",
     "address": "52 Strowan Road, Bryndwr, Christchurch",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 11:00pm"
+      }
+    ],
     "services": [
       "f'real",
       "Pre-order Coffee",
@@ -279,7 +395,36 @@
   {
     "title": "Z Cambridge",
     "address": "81 Victoria Street, Cambridge",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 8:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -336,7 +481,36 @@
   {
     "title": "Z Cashmere",
     "address": "23-25 Colombo Street, Beckenham, Christchurch",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am -11pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am -11pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -351,7 +525,36 @@
   {
     "title": "Z Central Parade",
     "address": "500 Maunganui Road, Mount Maunganui",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5am - 11pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5am - 11pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -365,7 +568,36 @@
   {
     "title": "Z Clevedon",
     "address": "24-28 Papakura-Clevedon Road",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 8:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -381,7 +613,36 @@
   {
     "title": "Z Constable St",
     "address": "35 Constable St, Newtown, Wellington",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 11:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "Trailer hire",
@@ -514,7 +775,36 @@
   {
     "title": "Z Fenton St",
     "address": "Cnr Fenton and Victoria Street, Rotorua",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -550,7 +840,36 @@
   {
     "title": "Z Geraldine",
     "address": "Cnr Waihi Terrace & Pine Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -565,7 +884,36 @@
   {
     "title": "Z Gladstone",
     "address": "455 Dee Street, Invercargill",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 9pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -637,7 +985,36 @@
   {
     "title": "Z Green Island",
     "address": "185 Main South Road, Green Island, Dunedin",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 9pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -651,7 +1028,36 @@
   {
     "title": "Z Greenlane",
     "address": "128 Greenlane Road, Greenlane, Auckland",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -716,7 +1122,36 @@
   {
     "title": "Z Havelock Nth",
     "address": "Cnr Havelock Road and Porter Drive, Havelock North",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -843,7 +1278,36 @@
   {
     "title": "Z Hutt Rd",
     "address": "453 Hutt Road, Lower Hutt",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -927,7 +1391,36 @@
   {
     "title": "Z Kaitaia",
     "address": "141-145 Commerce Street, Kaitaia",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -1046,7 +1539,36 @@
   {
     "title": "Z Kilbirnie",
     "address": "16-22 Coutts Street, Kilbirnie, Wellington",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 8:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 8:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1134,7 +1656,36 @@
   {
     "title": "Z Lincoln Rd",
     "address": "198 Lincoln Road, Henderson",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1170,7 +1721,36 @@
   {
     "title": "Z Mana",
     "address": "143 Mana Esplanade",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 10pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1206,7 +1786,36 @@
   {
     "title": "Z Marton",
     "address": "166 Broadway, Marton",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "7:00am - 7:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "7:00am - 7:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -1245,7 +1854,36 @@
   {
     "title": "Z Miramar",
     "address": "27 Miramar Avenue, Miramar, Wellington",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 10pm"
+      }
+    ],
     "services": [
       "EV Charging - Fast",
       "EV Charging - Ultra-Fast",
@@ -1411,7 +2049,36 @@
   {
     "title": "Z Ormiston Rd",
     "address": "8 Ormiston Road, Flat Bush, South Auckland",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5am - 10pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1490,7 +2157,36 @@
   {
     "title": "Z Palmerston",
     "address": "112 Ronaldsay Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 9:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -1502,7 +2198,36 @@
   {
     "title": "Z Papakura North",
     "address": "254 Great South Road, Takanini, Auckland",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 10pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1678,7 +2403,36 @@
   {
     "title": "Z Redwood",
     "address": "225 Scott Street, Blenheim",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 9:30pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 9:30pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "Trailer hire",
@@ -1699,7 +2453,36 @@
   {
     "title": "Z Rotokauri",
     "address": "Cnr Wairere Drive & Arthur Porter Drive",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "7:00am - 9:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "7:00am - 9:00pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -1830,7 +2613,36 @@
   {
     "title": "Z Springlands",
     "address": "165 Middle Renwick Road, Blenheim",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1865,7 +2677,36 @@
   {
     "title": "Z Stoke",
     "address": "666 Main Road, Stoke, Nelson",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1902,7 +2743,36 @@
   {
     "title": "Z Sunnybrae",
     "address": "37 Northcote Road, Takapuna",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 11:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1925,7 +2795,36 @@
   {
     "title": "Z Taipa",
     "address": "570 State Highway 10",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -1958,7 +2857,36 @@
   {
     "title": "Z Tamatea",
     "address": "6 Durham Avenue, Tamatea",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -1968,7 +2896,36 @@
   {
     "title": "Z Taradale",
     "address": "21 Lee Road",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -1983,7 +2940,36 @@
   {
     "title": "Z Taranaki St",
     "address": "155 Taranaki Street, Wellington",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 10pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -2131,7 +3117,36 @@
   {
     "title": "Z Ti Rakau Dr",
     "address": "284 Ti Rakau Drive, East Tamaki, South Auckland",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -2192,7 +3207,36 @@
   {
     "title": "Z Valley",
     "address": "248 Kaikorai Valley Road, Kaikorai, Dunedin",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "f'real",
       "Pre-order Coffee",
@@ -2253,7 +3297,36 @@
   {
     "title": "Z Waikuku",
     "address": "1413 Main North Road, Waikuku",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5am - 9pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5am - 9pm"
+      }
+    ],
     "services": [
       "f'real",
       "Pre-order Coffee",
@@ -2389,7 +3462,36 @@
   {
     "title": "Z Whitianga",
     "address": "83-85 Albert Street, Whitianga",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 9:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -2405,7 +3507,36 @@
   {
     "title": "Z Windsor",
     "address": "701 Heretaunga St East",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -2421,7 +3552,36 @@
   {
     "title": "Z Wiri Station Rd",
     "address": "83 Wiri Station Road, Manukau City",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 6:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 6:00pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -2511,7 +3671,36 @@
   {
     "title": "Z Awakeri",
     "address": "RD2, Whakatane",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "5:00am - 10:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -2522,7 +3711,36 @@
   {
     "title": "Z Balclutha",
     "address": "High Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 9:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 9:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "Trailer hire",
@@ -2556,7 +3774,36 @@
   {
     "title": "Z Constellation Dr",
     "address": "36 Constellation Drive",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 11:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 11:00pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -2575,7 +3822,36 @@
   {
     "title": "Z Cromwell",
     "address": "Cnr Barry Avenue and Murray Terrace",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 11:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 11:00pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -2661,7 +3937,36 @@
   {
     "title": "Z Gore",
     "address": "Corner Hokonui Drive & Irwell Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am - 9pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am - 9pm"
+      }
+    ],
     "services": [
       "Pre-order Coffee",
       "Pay in app",
@@ -2674,7 +3979,36 @@
   {
     "title": "Z Greymouth",
     "address": "10 Whall Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:30am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "f'real",
       "Pre-order Coffee",
@@ -2841,7 +4175,36 @@
   {
     "title": "Z Levin",
     "address": "11-15 Oxford Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6am – 10pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6am – 10pm"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -2921,7 +4284,36 @@
   {
     "title": "Z Ngatea",
     "address": "77 Orchard West Road",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "Open 24 hours"
+      }
+    ],
     "services": [
       "EV Charging - Ultra-Fast",
       "EV Charging - Fast &/or Ultra-Fast",
@@ -3047,7 +4439,36 @@
   {
     "title": "Z Seaview",
     "address": "Cnr Seaview Road and Parkside Road",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "6:00am - 8:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "7:00am - 8:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "7:00am - 8:00pm"
+      }
+    ],
     "services": [
       "Pay in app",
       "LPG SWAP'n'GO",
@@ -3180,7 +4601,36 @@
   {
     "title": "Z Wairoa",
     "address": "3 Achilles Street",
-    "hours": "Opening hours",
+    "hours": [
+      {
+        "day": "Monday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Tuesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Friday",
+        "time": "5:00am - 10:00pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "6:00am - 10:00pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "6:00am - 10:00pm"
+      }
+    ],
     "services": [
       "EV Charging - Fast",
       "EV Charging - Fast &/or Ultra-Fast",
