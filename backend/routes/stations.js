@@ -68,7 +68,7 @@ router.post("/filter", async (request, response) => {
     if (fuelType && fuelType !== 'no fuel') {
       // Handle both single fuel type and array of fuel types
       const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
-      query.fuelTypes = { $in: fuelTypes };
+      query['fuelTypes.fuel'] = { $in: fuelTypes };
     }
 
     let stations;

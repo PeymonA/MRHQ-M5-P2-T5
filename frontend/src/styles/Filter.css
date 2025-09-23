@@ -64,11 +64,11 @@ select {
 }
 
 /* React Select styling */
-.dividerServices .react-select-container {
+.react-select-container {
     width: 224px;
 }
 
-.dividerServices .react-select__control {
+.react-select__control {
     min-height: 56px;
     padding: 0 8px;
     border: 1px solid #ccc;
@@ -80,27 +80,27 @@ select {
     letter-spacing: -0.042px;
 }
 
-.dividerServices .react-select__placeholder,
-.dividerServices .react-select__single-value {
+.react-select__placeholder,
+.react-select__single-value {
     color: #848484;
 }
 
-.dividerServices .react-select__multi-value {
+.react-select__multi-value {
     background-color: #f0f0f0;
     border-radius: 4px;
 }
 
-.dividerServices .react-select__multi-value__label {
+.react-select__multi-value__label {
     color: #333;
     font-family: "Calibre";
     font-size: 14px;
 }
 
-.dividerServices .react-select__multi-value__remove {
+.react-select__multi-value__remove {
     color: #666;
 }
 
-.dividerServices .react-select__multi-value__remove:hover {
+.react-select__multi-value__remove:hover {
     background-color: #ff6b6b;
     color: white;
 }

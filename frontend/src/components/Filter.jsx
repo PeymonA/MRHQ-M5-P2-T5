@@ -4,8 +4,11 @@ import Select from 'react-select'
 
 function Filter(props) {
   const [selectedServices, setSelectedServices] = useState([]);
+  const [selectedStationType, setSelectedStationType] = useState("no station");
+  const [selectedFuelType, setSelectedFuelType] = useState("no fuel");
+  const [selectedSortBy, setSelectedSortBy] = useState("no sort");
 
-  const options = [
+  const servicesOptions = [
     { value: "EV Charging - Fast", label: "EV Charging - Fast" },
     { value: "EV Charging - Ultra-Fast", label: "EV Charging - Ultra-Fast" },
     { value: "EV Charging - Fast &/or Ultra-Fast", label: "EV Charging - Fast &/or Ultra-Fast" },
@@ -28,6 +31,27 @@ function Filter(props) {
     { value: "ATM", label: "ATM" }
   ]
 
+  const stationTypeOptions = [
+    { value: "no station", label: "Select Station Type" },
+    { value: "Truck Stop", label: "Truck Stop" },
+    { value: "Service Station", label: "Service Station" }
+  ]
+
+  const fuelTypeOptions = [
+    { value: "no fuel", label: "Select Fuel Type" },
+    { value: "Diesel with Techron D", label: "Diesel with Techron D" },
+    { value: "ZX Premium", label: "ZX Premium" },
+    { value: "Z91 Unleaded", label: "Z91 Unleaded" },
+    { value: "Z Diesel", label: "Z Diesel" },
+    { value: "Z DEC", label: "Z DEC" }
+  ]
+
+  const sortByOptions = [
+    { value: "no sort", label: "Sort By" },
+    { value: "Low to High", label: "Low to High" },
+    { value: "High to Low", label: "High to Low" }
+  ]
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -39,10 +63,24 @@ function Filter(props) {
       formJson[key] = value;
     }
     
-    // Add the services from react-select state
+    // Add all react-select values manually since they don't appear in FormData
     if (selectedServices.length > 0) {
       formJson['services'] = selectedServices.map(service => service.value);
     }
+    
+    // Add other react-select values
+    if (selectedStationType && selectedStationType !== "no station") {
+      formJson['stationType'] = selectedStationType.value;
+    }
+    
+    if (selectedFuelType && selectedFuelType !== "no fuel") {
+      formJson['fuelType'] = selectedFuelType.value;
+    }
+    
+    if (selectedSortBy && selectedSortBy !== "no sort") {
+      formJson['sortBy'] = selectedSortBy.value;
+    }
+    
     console.log(JSON.stringify(formJson));
     props.setState(formJson);
   }
@@ -55,40 +93,53 @@ function Filter(props) {
           <Select 
             id="services-select" 
             name='services' 
-            options={options} 
+            options={servicesOptions} 
             isMulti={true}
             value={selectedServices}
             onChange={setSelectedServices}
             className="react-select-container"
             classNamePrefix="react-select"
+            placeholder="Select Services"
           />
         </div>
         <div className='divider'>
           <label htmlFor="station-type-select">Station Type</label>
-          <select id="station-type-select" name="stationType">
-            <option value="no station">Select Station Type</option>
-            <option value="Truck Stop">Truck Stop</option>
-            <option value="Service Station">Service Station</option>
-          </select>
+          <Select 
+            id="station-type-select" 
+            name="stationType"
+            options={stationTypeOptions}
+            value={selectedStationType}
+            onChange={setSelectedStationType}
+            className='react-select-container'
+            classNamePrefix="react-select"
+            placeholder="Select Station Type"
+          />
         </div>
         <div className='divider'>
           <label htmlFor="fuel-type-select">Fuel Type</label>
-          <select id="fuel-type-select" name="fuelType">
-            <option value="no fuel">Select Fuel Type</option>
-            <option value="Diesel with Techron D">Diesel with Techron D</option>
-            <option value="ZX Premium">ZX Premium</option>
-            <option value="Z91 Unleaded">Z91 Unleaded</option>
-            <option value="Z Diesel">Z Diesel</option>
-            <option value="Z DEC">Z DEC</option>
-          </select>
+          <Select
+            id="fuel-type-select"
+            name="fuelType"
+            options={fuelTypeOptions}
+            value={selectedFuelType}
+            onChange={setSelectedFuelType}
+            className='react-select-container'
+            classNamePrefix="react-select"
+            placeholder="Select Fuel Type"
+          />
         </div>
         <div className='divider'>
           <label htmlFor="sort-by-select">Sort By</label>
-          <select id="sort-by-select" name='sortBy'>
-            <option value="no sort">Sort By</option>
-            <option value="Low to High">Low to High</option>
-            <option value="High to Low">High to Low</option>
-          </select>
+          <Select
+            id="sort-by-select"
+            name="sortBy"
+            options={sortByOptions}
+            value={selectedSortBy}
+            onChange={setSelectedSortBy}
+            className='react-select-container'
+            classNamePrefix="react-select"
+            placeholder="Sort By"
+          />
         </div>
         <div className='divider'>
           <label htmlFor="apply-filters-button" id='apply-filters-button-label'>Apply Filters</label>
