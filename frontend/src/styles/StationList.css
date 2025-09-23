@@ -313,3 +313,11 @@ li {
 .chevron-icon {
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .spacer {
+        display: none;
+    }
+    .station-container {
+        display: none;
+    }
+}

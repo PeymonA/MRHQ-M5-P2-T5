@@ -35,7 +35,7 @@ function MapComponent(props) {
   
   
   return (
-    <div style= {{width: '60%', height: '710px'}} >
+    <div className='map-container' >
       <APIProvider apiKey={import.meta.env.VITE_API_KEY} onLoad={() => console.log('Maps API has loaded.')}>
         <Map
           defaultZoom={5}

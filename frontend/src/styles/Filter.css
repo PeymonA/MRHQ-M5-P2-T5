@@ -1,3 +1,4 @@
+
 label {
     color: #848484;
     /* P SemiBold */
@@ -73,5 +74,12 @@ form {
 }
 #apply-filters-button-label {
     color: #ffffff;
+}
+
+/* Hide filter component on mobile devices */
+@media (max-width: 768px) {
+    .filter-container {
+        display: none;
+    }
 }
 
