@@ -45,8 +45,24 @@ function StationList(props) {
     fetchData();
   }, [props.state]);
 
-  function handleSeeMore() {
-
+  function handleSeeMore(index) {
+    const toHide = document.getElementById(`${index}`);
+    const toHideArrow = document.getElementById(`chevron-down-icon${index}`);
+    const toShow = document.getElementById(`opening-hours${index}`);
+    const toShowTable = document.getElementById(`hours-list${index}`);
+    if (toShow) {
+      toShow.style.display = 'flex';
+      toShow.style.marginLeft = '8px';
+    }
+    if (toShowTable) {
+      toShowTable.style.display = 'block';
+    }
+    if (toHide) {
+      toHide.style.display = 'none';
+    }
+    if (toHideArrow) {
+      toHideArrow.style.display = 'none';
+    }
   }
 
   return (
@@ -59,7 +75,7 @@ function StationList(props) {
           <div className='station-list'>
             <p className="station-count">{stations.length} Stations found</p>
             <ul>
-              {stations.map((station) => (
+              {stations.map((station, index) => (
                 <li key={station._id} className="station-card">
                   <h2>{station.title}</h2>
                   <p className='station-address'>{station.address}</p>
@@ -122,12 +138,12 @@ function StationList(props) {
                         <div className='hours-div'>
                           <div className='opening-hours-button'>
                             <p id={isOpen ? "open" : "closed"}>{isOpen ? "Open now" : "Closed"}</p>
-                            <h3 id='opening-hours'>Opening hours:</h3>
-                            <p className='opening-hours-black'>Opening hours</p>
-                            <img src='chevron-down.svg' alt='chevron down icon' className='chevron-down-icon'
-                              onClick={() => handleSeeMore()}/>
+                            <h3 id={`opening-hours${index}`}>Opening hours:</h3>
+                            <p className='opening-hours-black' id={`${index}`}>Opening hours</p>
+                            <img src='chevron-down.svg' alt='chevron down icon' id={`chevron-down-icon${index}`}
+                              onClick={() => handleSeeMore(index)}  />
                           </div>
-                          <ul className='hours-list'>
+                          <ul className='hours-list' id={`hours-list${index}`}>
                             {Object.entries(station.hours.hours).map(([day, time], index) => (
                               <div className='times' key={index}>
                                 <li key={day} className='day'>{day} </li>
