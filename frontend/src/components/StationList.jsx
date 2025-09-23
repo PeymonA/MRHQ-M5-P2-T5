@@ -5,6 +5,7 @@ import MapComponent from './MapComponent.jsx'
 function StationList(props) {
   const [stations, setStations] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+
   const dateTime = new Date();
   
   useEffect(() => {
@@ -44,6 +45,10 @@ function StationList(props) {
     fetchData();
   }, [props.state]);
 
+  function handleSeeMore() {
+
+  }
+
   return (
     <div className="list-map-container">
       <div className='spacer'></div>
@@ -57,7 +62,7 @@ function StationList(props) {
               {stations.map((station) => (
                 <li key={station._id} className="station-card">
                   <h2>{station.title}</h2>
-                  <p>{station.address}</p>
+                  <p className='station-address'>{station.address}</p>
                   {station.hours.hours['Monday'] === 'Open 24 hours' ? (
                     <p id='open-24'>Open 24 hours</p>
                   ) : (
@@ -114,10 +119,15 @@ function StationList(props) {
                       }
 
                       return (
-                        <div>
-                          <p id={isOpen ? "open" : "closed"}>{isOpen ? "Open now" : "Closed"}</p>
-                          <h3 id='opening-hours'>Opening hours:</h3>
-                          <ul>
+                        <div className='hours-div'>
+                          <div className='opening-hours-button'>
+                            <p id={isOpen ? "open" : "closed"}>{isOpen ? "Open now" : "Closed"}</p>
+                            <h3 id='opening-hours'>Opening hours:</h3>
+                            <p className='opening-hours-black'>Opening hours</p>
+                            <img src='chevron-down.svg' alt='chevron down icon' className='chevron-down-icon'
+                              onClick={() => handleSeeMore()}/>
+                          </div>
+                          <ul className='hours-list'>
                             {Object.entries(station.hours.hours).map(([day, time], index) => (
                               <div className='times' key={index}>
                                 <li key={day} className='day'>{day} </li>
@@ -153,6 +163,11 @@ function StationList(props) {
                   </div>
                   <h3>Services:</h3>
                   <p>{station.services.join(", ")}</p>
+                  <div className='button-container'>
+                    <button className='see-more-button'>See more</button>
+                    <button className='maps-button'>Google Maps</button>
+                    <button className='directions-button'>Directions</button>
+                  </div>
                 </li>
               ))}
             </ul>

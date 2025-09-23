@@ -35,6 +35,7 @@
     font-weight: 700;
     line-height: 110%; /* 30.8px */
     letter-spacing: -0.14px;  
+    margin-bottom: 0px;
 }
 .station-card p {
     color: var(--Neutral-900, #232323);
@@ -55,6 +56,7 @@
     font-weight: 700;
     line-height: 120%; /* 24px */
     letter-spacing: -0.1px;
+    display: none;
 }
 .station-list ul {
     list-style-type: none;
@@ -98,6 +100,8 @@ li {
     font-weight: 400;
     line-height: 140%; /* 22.4px */
     letter-spacing: -0.048px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #open-24 {
@@ -116,6 +120,8 @@ li {
     font-weight: 400;
     line-height: 140%; /* 22.4px */
     letter-spacing: -0.048px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #closed {
@@ -134,10 +140,13 @@ li {
     font-weight: 400;
     line-height: 140%; /* 22.4px */
     letter-spacing: -0.048px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #opening-hours {
     display: inline-flex;
     margin-left: 8px;
+    display: none;
 }
 #phone {
     color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
@@ -169,4 +178,86 @@ li {
 .fuel-item{
     display: flex;
     align-items: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.maps-button {
+    display: none;
+    width: 179px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    background: var(--Neutral-0, #FFF);
+    /* H3 */
+    font-family: "Calibre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.1px;
+}
+.directions-button {
+    display: flex;
+    width: 179px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid var(--Christine-Orange-christine-orange-600, #D84E0D);
+    background: var(--Neutral-0, #FFF);
+    color: var(--Christine-Orange-christine-orange-600, #D84E0D);
+    /* H3 */
+    font-family: "Calibre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.1px;
+}
+.see-more-button {
+    display: flex;
+    width: 179px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    background: var(--Neutral-0, #FFF);
+    /* H3 */
+    font-family: "Calibre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.1px;
+}
+.hours-list {
+    display: none;
+}
+.opening-hours-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.opening-hours-black {
+    margin-left: 8px;
+}
+.station-address {
+    margin-top: 1px;
 }
