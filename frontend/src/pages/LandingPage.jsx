@@ -1,11 +1,6 @@
-
-import FindStation from '../components/FindStation';
-import Nav from '../components/Nav';
+import { useEffect, useMemo, useState } from 'react';
 import '../styles/LandingPage.css'
-import Hero from '../components/Hero';
-import WhatYouNeed from '../components/WhatYouNeed';
-import MakeTheMostOfZ from '../components/makeTheMostOfZ';
-import Footer from '../components/Footer';
+
 
 
 /**

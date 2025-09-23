@@ -28,7 +28,27 @@ const PoiMarkers = (props) => {
   useEffect(() => {
     if (!map) return;
     if (!clusterer.current) {
-      clusterer.current = new MarkerClusterer({map});
+    let renderer = {
+      render({ count, position }) {
+        const svg = window.btoa(`
+          <svg fill="#ED560E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+            <circle cx="120" cy="120" opacity=".6" r="70" /></svg>`);
+        return new google.maps.Marker({
+          position,
+          label: {
+            text: `${count}`,
+            color: "#fff",
+            fontSize: "12px",
+          },
+          icon: {
+            url: `data:image/svg+xml;base64,${svg}`,
+            scaledSize: new google.maps.Size(45, 45),
+          },
+          title: `Cluster of ${count} markers`,
+          zIndex: Number(google.maps.Marker.MAX_ZINDEX) + count,
+        });
+      }};
+      clusterer.current = new MarkerClusterer({map, renderer});
     }
   }, [map]);
 
