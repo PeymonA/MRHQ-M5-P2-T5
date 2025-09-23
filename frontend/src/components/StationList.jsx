@@ -205,8 +205,15 @@ function StationList(props) {
                   <div className='button-container'>
                     <button className='see-more-button' onClick={() => handleSeeMore(index)}
                       id={`see-more-button${index}`}>See more</button>
-                    <button className='maps-button'
-                      id={`maps-button${index}`}>Google Maps</button>
+                    <a 
+                      className='maps-button'
+                      id={`maps-button${index}`}
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(station.address)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Google Maps
+                    </a>
                     <button className='directions-button'>Directions</button>
                   </div>
                 </li>

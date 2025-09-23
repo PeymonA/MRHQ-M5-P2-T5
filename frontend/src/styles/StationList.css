@@ -205,6 +205,24 @@ li {
     font-weight: 700;
     line-height: 120%; /* 24px */
     letter-spacing: -0.1px;
+    /* Reset anchor defaults */
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.maps-button:hover {
+    background-color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+    color: var(--Neutral-0, #FFF);
+    transition: all 0.2s ease;
+}
+
+.maps-button:visited {
+    color: var(--Lucky-Point-Blue-lucky-point-blue-500, #1E196A);
+}
+
+.maps-button:visited:hover {
+    color: var(--Neutral-0, #FFF);
 }
 .directions-button {
     display: flex;
