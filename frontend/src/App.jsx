@@ -1,19 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import MapPage from './pages/MapPage';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage.jsx";
+import MapPage from "./pages/MapPage.jsx"; // you already have this
+// import LoginPage from "./pages/LoginPage.jsx"; // we’ll add later
 
-function App() {
-
-    return (
-        <Router>
-            <div>
-            <Routes>
-                <Route path="/" element={<LandingPage />} />
-                <Route path="/map" element={<MapPage />} />
-            </Routes>
-            </div>
-        </Router>
-    );
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/map" element={<MapPage />} />
+        {/* <Route path="/login" element={<LoginPage />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App;
