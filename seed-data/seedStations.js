@@ -32,6 +32,8 @@ const seed = async () => {
 
         const fuelTypesIterable = station.fuelTypes;
         
+
+
         const fuelTypes = Array.from(fuelTypesIterable).map(fuelType => ({
           fuel: fuelType,
           price: getRandomFloat(2.5, 3.5)
@@ -43,9 +45,16 @@ const seed = async () => {
           fuelTypes[1] = temp;
         }
 
+        const fuelTypesArray = fuelTypes;
+
+        const fuelTypesJson = fuelTypes.reduce((obj, fuelType) => {
+          obj[fuelType.fuel] = fuelType.price;
+          return obj;
+        }, {});
+
         const avgPrice = parseFloat((fuelTypes.reduce((sum, ft) => sum + ft.price, 0) / fuelTypes.length).toFixed(2));
 
-        await Station.create({ title, address, hours, phone, services, fuelTypes, avgPrice });
+        await Station.create({ title, address, hours, phone, services, fuelTypesArray, fuelTypesJson, avgPrice });
     }
     
     console.info("DB Seeded");

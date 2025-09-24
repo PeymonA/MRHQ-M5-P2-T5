@@ -18,7 +18,7 @@ async function stationsToJson(stations) {
         Sunday: newStation.hours[6]?.time || "N/A",
       }};
 
-      const returnFuelTypes = newStation.fuelTypes.map(fuelType => ({
+      const returnFuelTypes = newStation.fuelTypesArray.map(fuelType => ({
         fuel: fuelType.fuel,
         price: fuelType.price
       }));
@@ -31,7 +31,7 @@ async function stationsToJson(stations) {
         phone: newStation.phone,
         services: newStation.services,
         fuelTypes: returnFuelTypes,
-        fuelTypesSearch: newStation.fuelTypes,
+        fuelTypesSearch: newStation.fuelTypesArray,
         avgPrice: newStation.avgPrice
       };
       stationsReturn.push(stationJson);
@@ -55,34 +55,55 @@ router.get("/", async (request, response) => {
 router.post("/filter", async (request, response) => {
   try {
     const { services, fuelType, sortBy } = request.body;
-    
+
     // Build query object dynamically
     const query = {};
-    
-    // Add services filter if provided and not empty
-    if (services && Array.isArray(services) && services.length > 0) {
-      query.services = { $all: services };
-    }
-    
-    // Add fuel type filter if provided and not 'no fuel'
-    if (fuelType && fuelType !== 'no fuel') {
-      // Handle both single fuel type and array of fuel types
-      const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
-      query['fuelTypes.fuel'] = { $in: fuelTypes };
-    }
 
     let stations;
-
-    if (sortBy && sortBy !== 'no sort') {
+    
+    if ((sortBy && sortBy !== 'no sort') && (fuelType && fuelType !== 'no fuel')) {
+      // Add services filter if provided and not empty
+      if (services && Array.isArray(services) && services.length > 0) {
+        query.services = { $all: services };
+      }
+      
+      // Add fuel type filter if provided and not 'no fuel'
+      const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
+      query['fuelTypesArray.fuel'] = { $in: fuelTypes };
+      
+      const sortField = `fuelTypesJson.${fuelType}`;
+      
       if (sortBy === 'Low to High') {
-        stations = await stationModel.find(query).sort({ avgPrice: 1 });
+        stations = await stationModel.find(query).sort({ [sortField]: 1 });        
       }
       else {
-        stations = await stationModel.find(query).sort({ avgPrice: -1 });
+        stations = await stationModel.find(query).sort({ [sortField]: -1 });
       }
     }
     else {
-      stations = await stationModel.find(query);
+      // Add services filter if provided and not empty
+      if (services && Array.isArray(services) && services.length > 0) {
+        query.services = { $all: services };
+      }
+      
+      // Add fuel type filter if provided and not 'no fuel'
+      if (fuelType && fuelType !== 'no fuel') {
+        // Handle both single fuel type and array of fuel types
+        const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
+        query['fuelTypesArray.fuel'] = { $in: fuelTypes };
+      }
+
+      if (sortBy && sortBy !== 'no sort') {
+        if (sortBy === 'Low to High') {
+          stations = await stationModel.find(query).sort({ avgPrice: 1 });
+        }
+        else {
+          stations = await stationModel.find(query).sort({ avgPrice: -1 });
+        }
+      }
+      else {
+        stations = await stationModel.find(query);
+      }
     }
 
     let stationsReturn = await stationsToJson(stations);

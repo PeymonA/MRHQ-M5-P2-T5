@@ -28,7 +28,11 @@ const stationSchema = new Schema({
         type: [String],
     },
 
-    fuelTypes: {
+    fuelTypesArray: {
+        type: mongoose.Schema.Types.Mixed,
+    },
+
+    fuelTypesJson: {
         type: mongoose.Schema.Types.Mixed,
     },
 
