@@ -2,6 +2,7 @@ import '../styles/MapComponent.css'
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import PoiMarkers from './PoiMarkers';
 import { useEffect, useState } from 'react';
+import Directions from './Directions';
 
 function MapComponent(props) {
   const [pins, setPins] = useState([]);
@@ -41,8 +42,10 @@ function MapComponent(props) {
           defaultZoom={5}
           defaultCenter={ { lat: -40.9006, lng: 174.8860 } }
           mapId='62bed989cefe108d5df871ad'
+          fullscreenControl={false}
         >
           <PoiMarkers pois={pins} />
+          <Directions />
         </Map>
       </APIProvider>
     </div>
