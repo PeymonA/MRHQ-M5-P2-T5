@@ -5,6 +5,47 @@ import MapComponent from './MapComponent.jsx'
 function StationList(props) {
   const [stations, setStations] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [currentLocation, setCurrentLocation] = useState(null);
+  const [destination, setDestination] = useState(null);
+
+  async function directions(currStation) {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setCurrentLocation([position.coords.latitude, position.coords.longitude]);
+          console.log('Current location StationList:', currentLocation);
+        },
+        (error) => {
+          console.error('Error getting location:', error);
+          alert('Unable to get your location. Please enable location services.');
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0
+        }
+      );
+
+    const response = await fetch('http://localhost:3000/geocodes', {
+      method: 'POST',
+      body: JSON.stringify([currStation]),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    const data = await response.json();
+    if (typeof data[0].location !== 'undefined') {
+      setDestination([data[0].location.lat, data[0].location.lng]);
+      console.log('Destination StationList:', destination);
+    }
+    else {
+      alert('Unable to get destination location for the selected station.');
+    }
+
+  } else {
+    alert("Geolocation is not supported by this browser.");
+  }
+}
 
   const dateTime = new Date();
   
@@ -28,7 +69,6 @@ function StationList(props) {
           const data = await response.json();
           setStations(data);
           props.setStations(data);
-          console.log('Fetched all stations from StationList:', data);
         }
         else { 
           const formJson = props.state;
@@ -220,7 +260,12 @@ function StationList(props) {
                     >
                       Google Maps
                     </a>
-                    <button className='directions-button'>Directions</button>
+                    <button 
+                      className='directions-button'
+                      onClick={() => directions(station)}
+                    >
+                      Directions
+                    </button>
                   </div>
                 </li>
               ))}
@@ -228,7 +273,7 @@ function StationList(props) {
           </div>
         )}
       </div>
-      {!isLoading && <MapComponent stations={stations} setStations={setStations} />}
+      {!isLoading && <MapComponent stations={stations} setStations={setStations} currentLocation={currentLocation} destination={destination} />}
     </div>
   )
 }

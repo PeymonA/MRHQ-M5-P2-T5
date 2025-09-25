@@ -13,8 +13,6 @@ const PoiMarkers = (props) => {
   const [markers, setMarkers] = useState({});
   const clusterer = useRef(null);
 
-  console.log('POI Markers props:', props.pois);
-
   // Create the pin image element
   const createPinElement = () => {
     const img = document.createElement('img');

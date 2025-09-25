@@ -3,14 +3,30 @@ import {
   useMapsLibrary,
 } from '@vis.gl/react-google-maps';
 
-import React, { useEffect, useState } from 'react';
+import React, { use, useEffect, useState } from 'react';
 
-function Directions() {
+function Directions(props) {
     const map = useMap();
     const routesLibrary = useMapsLibrary('routes');
     const [directionsService, setDirectionsService] = useState(null);
     const [directionsRenderer, setDirectionsRenderer] = useState(null);
-    const [routes, setRoutes] = useState([]);
+    const [currLocation, setCurrentLocation] = useState(null);
+    const [currDestination, setDestination] = useState(null);
+    const [ready, setReady] = useState(false);
+
+    useEffect(() => {
+        if (props.currentLocation) {
+            setCurrentLocation(props.currentLocation);
+            console.log('Current location Directions:', props.currentLocation);
+        }
+        if (props.destination) {
+            setDestination(props.destination);
+            console.log('Destination Directions:', props.destination);
+        }
+        if (props.currentLocation && props.destination) {
+            setReady(true);
+        }
+    }, [props.currentLocation, props.destination]);
 
     useEffect(() => {
         if (!map || !routesLibrary) return;
@@ -20,20 +36,19 @@ function Directions() {
 
     useEffect(() => {
         if (!directionsService || !directionsRenderer) return;
+        if (!ready) return;
+        setReady(false);
 
         directionsService.route(
             {
-                origin: { lat: -36.8485, lng: 174.7633 }, // Auckland
-                destination: { lat: -41.2865, lng: 174.7762 }, // Wellington
+                origin: { lat: currLocation[0], lng: currLocation[1] }, // Current Location
+                destination: { lat: currDestination[0], lng: currDestination[1] }, // Destination
                 travelMode: 'DRIVING',
             }).then((response) => {
                 directionsRenderer.setDirections(response);
-                setRoutes(response.routes);
             }).catch((e) => window.alert('Directions request failed due to ' + e));
 
-    }, [directionsService, directionsRenderer]);
-
-    console.log('Routes:', routes);
+    }, [directionsService, directionsRenderer, ready]);
 
     return (
         null

@@ -15,7 +15,6 @@ function MapComponent(props) {
         });
         const data = await response.json();
         setPins(data);
-        console.log('Fetched all geocodes from MapComponent:', data);
       }
       else {
         console.log('Fetching filtered geocodes from MapComponent with stations:', props.stations);
@@ -28,7 +27,6 @@ function MapComponent(props) {
         });
         const data = await response.json();
         setPins(data);
-        console.log('Fetched filtered geocodes from MapComponent:', data);
       }
     };
     fetchData();
@@ -45,7 +43,7 @@ function MapComponent(props) {
           fullscreenControl={false}
         >
           <PoiMarkers pois={pins} />
-          <Directions />
+          <Directions currentLocation={props.currentLocation} destination={props.destination}/>
         </Map>
       </APIProvider>
     </div>
