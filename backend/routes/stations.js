@@ -2,13 +2,6 @@ var express = require('express');
 const stationModel = require("../models/station");
 var router = express.Router();
 
-function getRandomFloat(min, max, decimals = 2) {
-  min = min * 100;
-  max = max * 100;
-  const randomFloat = Math.random() * (max - min) + min;
-  return (Math.round(randomFloat * Math.pow(10, decimals)) / Math.pow(10, decimals));
-}
-
 async function stationsToJson(stations) {
   let stationsReturn = [];
   for (let station of stations) {
@@ -25,16 +18,10 @@ async function stationsToJson(stations) {
         Sunday: newStation.hours[6]?.time || "N/A",
       }};
 
-      const returnFuelTypes = newStation.fuelTypes.map(fuelType => ({
-        fuel: fuelType,
-        price: getRandomFloat(2.5, 3.5)
+      const returnFuelTypes = newStation.fuelTypesArray.map(fuelType => ({
+        fuel: fuelType.fuel,
+        price: fuelType.price
       }));
-
-      if (returnFuelTypes[0].fuel === 'ZX Premium') {
-        const temp = returnFuelTypes[0];
-        returnFuelTypes[0] = returnFuelTypes[1];
-        returnFuelTypes[1] = temp;
-      }
 
       const stationJson = {
         _id: newStation._id,
@@ -44,7 +31,8 @@ async function stationsToJson(stations) {
         phone: newStation.phone,
         services: newStation.services,
         fuelTypes: returnFuelTypes,
-        fuelTypesSearch: newStation.fuelTypes
+        fuelTypesSearch: newStation.fuelTypesArray,
+        avgPrice: newStation.avgPrice
       };
       stationsReturn.push(stationJson);
     }
@@ -65,22 +53,65 @@ router.get("/", async (request, response) => {
 });
 
 router.post("/filter", async (request, response) => {
-  const {services, fuelType} = request.body;
-  let stations;
-  if (fuelType === 'no fuel' ) {
-    stations = await stationModel.find({ services: { $all: services } });
-  }
-  else if (!services) {
-    stations = await stationModel.find({ fuelTypes: { $in: fuelType } });
-  }
-  else {
-    stations = await stationModel.find({ services: { $all: services }, fuelTypes: { $in: fuelType } });
-  }
-  const stationsReturn = await stationsToJson(stations);
   try {
+    const { services, fuelType, sortBy } = request.body;
+
+    // Build query object dynamically
+    const query = {};
+
+    let stations;
+    
+    if ((sortBy && sortBy !== 'no sort') && (fuelType && fuelType !== 'no fuel')) {
+      // Add services filter if provided and not empty
+      if (services && Array.isArray(services) && services.length > 0) {
+        query.services = { $all: services };
+      }
+      
+      // Add fuel type filter if provided and not 'no fuel'
+      const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
+      query['fuelTypesArray.fuel'] = { $in: fuelTypes };
+      
+      const sortField = `fuelTypesJson.${fuelType}`;
+      
+      if (sortBy === 'Low to High') {
+        stations = await stationModel.find(query).sort({ [sortField]: 1 });        
+      }
+      else {
+        stations = await stationModel.find(query).sort({ [sortField]: -1 });
+      }
+    }
+    else {
+      // Add services filter if provided and not empty
+      if (services && Array.isArray(services) && services.length > 0) {
+        query.services = { $all: services };
+      }
+      
+      // Add fuel type filter if provided and not 'no fuel'
+      if (fuelType && fuelType !== 'no fuel') {
+        // Handle both single fuel type and array of fuel types
+        const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
+        query['fuelTypesArray.fuel'] = { $in: fuelTypes };
+      }
+
+      if (sortBy && sortBy !== 'no sort') {
+        if (sortBy === 'Low to High') {
+          stations = await stationModel.find(query).sort({ avgPrice: 1 });
+        }
+        else {
+          stations = await stationModel.find(query).sort({ avgPrice: -1 });
+        }
+      }
+      else {
+        stations = await stationModel.find(query);
+      }
+    }
+
+    let stationsReturn = await stationsToJson(stations);
+    
     response.send(stationsReturn);
   } catch (error) {
-    response.status(500).send(error);
+    console.error('Error filtering stations:', error);
+    response.status(500).send({ error: 'Failed to filter stations' });
   }
 });
 
