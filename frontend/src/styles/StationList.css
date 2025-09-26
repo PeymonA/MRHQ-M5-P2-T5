@@ -309,6 +309,7 @@ li {
 }
 .station-address {
     margin-top: 1px;
+    margin-bottom: 0px;
 }
 .chevron-icon {
     cursor: pointer;

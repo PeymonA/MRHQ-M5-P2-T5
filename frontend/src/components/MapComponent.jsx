@@ -10,7 +10,7 @@ function MapComponent(props) {
   useEffect(() => {
     const fetchData = async () => {
       if (props.stations.length === 227) {
-        const response = await fetch('http://localhost:3000/geocodes', {
+        const response = await fetch('http://localhost:3001/geocodes', {
           method: 'GET'
         });
         const data = await response.json();
@@ -18,7 +18,7 @@ function MapComponent(props) {
       }
       else {
         console.log('Fetching filtered geocodes from MapComponent with stations:', props.stations);
-        const response = await fetch('http://localhost:3000/geocodes', {
+        const response = await fetch('http://localhost:3001/geocodes', {
           method: 'POST',
           body: JSON.stringify(props.stations),
           headers: {

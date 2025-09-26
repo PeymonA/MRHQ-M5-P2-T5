@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var createError = require('http-errors');
 var express = require('express');
 
@@ -12,6 +14,7 @@ var cors = require('cors');
 var indexRouter = require('./routes/index');
 var getStationsRouter = require('./routes/stations');
 var getGeocodesRouter = require('./routes/geocodes');
+var distanceRouter = require('./routes/distance');
 
 var app = express();
 
@@ -32,6 +35,7 @@ mongoose.connect('mongodb://localhost:27017/m5');
 app.use('/', indexRouter);
 app.use('/stations', getStationsRouter);
 app.use('/geocodes', getGeocodesRouter);
+app.use('/distance', distanceRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -39,14 +43,16 @@ app.use(function(req, res, next) {
 });
 
 // error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+const PORT = process.env.PORT || 3001;
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+app.listen(PORT, () => {
+  console.log(`Server is live at http://localhost:${PORT}`);
+}).on("error", (error) => {
+  if (error.code === "EADDRINUSE") {
+    console.error("Port is already in use");
+  } else {
+    console.error("Server Error:", error);
+  }
 });
 
 module.exports = app;
