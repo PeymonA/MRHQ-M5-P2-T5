@@ -7,6 +7,7 @@ function Filter(props) {
   const [selectedStationType, setSelectedStationType] = useState("no station");
   const [selectedFuelType, setSelectedFuelType] = useState("no fuel");
   const [selectedSortBy, setSelectedSortBy] = useState("no sort");
+  const [location, setLocation] = useState(props.state.location || "no location");
 
   const servicesOptions = [
     { value: "EV Charging - Fast", label: "EV Charging - Fast" },
@@ -79,6 +80,8 @@ function Filter(props) {
     
     if (selectedSortBy && selectedSortBy !== "no sort") {
       formJson['sortBy'] = selectedSortBy.value;
+
+      formJson['location'] = location.value;
     }
     
     console.log(JSON.stringify(formJson));

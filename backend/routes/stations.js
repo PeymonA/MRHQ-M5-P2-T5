@@ -1,11 +1,12 @@
 var express = require('express');
 const stationModel = require("../models/station");
+const stationGeocodeModel = require("../models/station-geocode");
 var router = express.Router();
 
 async function stationsToJson(stations) {
   let stationsReturn = [];
   for (let station of stations) {
-    const newStation = await stationModel.findOne({title: station.title });
+    const newStation = await stationGeocodeModel.findOne({title: station.title });
     if (newStation) {
 
       const returnHours = { hours: {
@@ -32,7 +33,11 @@ async function stationsToJson(stations) {
         services: newStation.services,
         fuelTypes: returnFuelTypes,
         fuelTypesSearch: newStation.fuelTypesArray,
-        avgPrice: newStation.avgPrice
+        avgPrice: newStation.avgPrice,
+        location: {
+          lat: newStation.location.lat,
+          lng: newStation.location.lng
+        }
       };
       stationsReturn.push(stationJson);
     }
@@ -54,7 +59,7 @@ router.get("/", async (request, response) => {
 
 router.post("/filter", async (request, response) => {
   try {
-    const { services, fuelType, sortBy } = request.body;
+    const { services, fuelType, sortBy, location } = request.body;
 
     // Build query object dynamically
     const query = {};
@@ -66,6 +71,9 @@ router.post("/filter", async (request, response) => {
       if (services && Array.isArray(services) && services.length > 0) {
         query.services = { $all: services };
       }
+
+      // KARL DO STUFF HERE
+      console.log(location);
       
       // Add fuel type filter if provided and not 'no fuel'
       const fuelTypes = Array.isArray(fuelType) ? fuelType : [fuelType];
@@ -74,10 +82,10 @@ router.post("/filter", async (request, response) => {
       const sortField = `fuelTypesJson.${fuelType}`;
       
       if (sortBy === 'Low to High') {
-        stations = await stationModel.find(query).sort({ [sortField]: 1 });        
+        stations = await stationGeocodeModel.find(query).sort({ [sortField]: 1 });        
       }
       else {
-        stations = await stationModel.find(query).sort({ [sortField]: -1 });
+        stations = await stationGeocodeModel.find(query).sort({ [sortField]: -1 });
       }
     }
     else {
@@ -85,6 +93,9 @@ router.post("/filter", async (request, response) => {
       if (services && Array.isArray(services) && services.length > 0) {
         query.services = { $all: services };
       }
+
+      // KARL DO STUFF HERE
+      console.log(location);
       
       // Add fuel type filter if provided and not 'no fuel'
       if (fuelType && fuelType !== 'no fuel') {
@@ -95,14 +106,14 @@ router.post("/filter", async (request, response) => {
 
       if (sortBy && sortBy !== 'no sort') {
         if (sortBy === 'Low to High') {
-          stations = await stationModel.find(query).sort({ avgPrice: 1 });
+          stations = await stationGeocodeModel.find(query).sort({ avgPrice: 1 });
         }
         else {
-          stations = await stationModel.find(query).sort({ avgPrice: -1 });
+          stations = await stationGeocodeModel.find(query).sort({ avgPrice: -1 });
         }
       }
       else {
-        stations = await stationModel.find(query);
+        stations = await stationGeocodeModel.find(query);
       }
     }
 

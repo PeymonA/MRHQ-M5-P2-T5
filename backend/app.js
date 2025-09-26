@@ -15,6 +15,7 @@ var indexRouter = require('./routes/index');
 var getStationsRouter = require('./routes/stations');
 var getGeocodesRouter = require('./routes/geocodes');
 var distanceRouter = require('./routes/distance');
+var testRouter = require('./routes/test');
 
 var app = express();
 
@@ -36,6 +37,7 @@ app.use('/', indexRouter);
 app.use('/stations', getStationsRouter);
 app.use('/geocodes', getGeocodesRouter);
 app.use('/distance', distanceRouter);
+app.use('/test', testRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
